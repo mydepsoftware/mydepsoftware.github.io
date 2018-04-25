@@ -18,9 +18,9 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   MyDEP is a computational tool dedicated to the study of dielectric particle response to AC electric fields
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://mydepsoftware.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  mydepsoftware
 
 # Build settings
 markdown: kramdown #moteur de rendu
