@@ -24,7 +24,7 @@ details[open] summary ~ * {
 
 <details>
 <summary><h2 class="menutitle"> Introduction</h2></summary>
- 
+
 <p class="retrait"> MyDEP is a Java based standalone software which allows to study dielectric particle response to AC electric fields and to analyse the electric properties of biological cells.
 It consists of a Graphical User Interface (GUI) supporting a literature-based database. This tool can also be used with the user's own data sets. </p>
 
@@ -53,15 +53,15 @@ Unzip the folder (zip archive) and open it. Double-click on the mydep.jar file.<
 <p> The "mydep.ini" file will be created containing all your preferences and the following screen will appear with the application: </p>
 
 <div class="DIVimage">
-    <img class="im" src='/assets/img/image04_MYDEP.png' />
+    <img class="im" src='/assets/img/image04_MyDEP.png' />
 </div>
 
  </details>
 <details>
 <summary><h2 class="menutitle"> User interface structure </h2></summary>
- 
+
 <div class="DIVimage">
-    <img class="im" src='/assets/img/image05_MyDEP_cadreRouge_number_menubar.png' />
+    <img class="im" src='/assets/img/Image05_MyDEP_cadreRouge_number_menubar.png' />
 </div>
 
 <p> The interface is constituted of nine different parts: </p>
@@ -300,7 +300,7 @@ It should be noted that tooltips are available for most of the interface paramet
  </details>
 <details>
 <summary><h2 class="menutitle"> Database </h2></summary>
- 
+
 
 <p class="retrait">MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that were found in the literature has been created. This database is in the file database.txt. </p>
 
@@ -328,7 +328,7 @@ A similar principle is applied for the different media in the medium section of 
  </details>
 <details>
 <summary><h2 class="menutitle"> Single shell: electrical model </h2></summary>
- 
+
 <p>For the Single-shell model an additional feature allows to specify different properties of the cell membrane: either the "Classical Model" ($th_{cm}$, $\sigma_{cm}$ and $\varepsilon_{cm}$) or the "Electrical Model" (specific membrane conductance $G_{cm}$ and capacitance $C_{cm}$). </p>
 
 <p>
@@ -351,7 +351,7 @@ A similar principle is applied for the different media in the medium section of 
 <details>
 <summary>
 <h2 class="menutitle"> Specificities of the "homogeneous" particle model </h2></summary>
- 
+
 
 <p>
 The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for depolarization factor and all the calculations.
