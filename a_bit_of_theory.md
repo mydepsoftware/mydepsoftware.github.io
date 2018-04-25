@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  A bit of theory...
-
+permalink: /a_bit_of_theory/
 ---
 <h1> A bit of theory... </h1>
 
