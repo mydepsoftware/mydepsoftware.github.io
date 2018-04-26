@@ -44,7 +44,7 @@ Unzip the folder (zip archive) and open it. Double-click on the mydep.jar file.<
     <img class="im" src='/assets/img/image02_mac.png' />
 </div>
 
-<p> Click on "Open anyway" -> Open
+<p> Click on "Open anyway" -> Open </p>
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image03_mac.png' />
