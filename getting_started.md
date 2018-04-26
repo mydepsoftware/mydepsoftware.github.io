@@ -81,12 +81,12 @@ The following section describes them one by one.
 
 It should be noted that tooltips are available for most of the interface parameters. To access them, the user should place the mouse cursor on the desired parameter.
 
-  <details><summary><h4> 1. Medium </h4> </summary><p class="retrait"> In this section, the user can choose the dielectric properties of the medium which are $\sigma_m$, the electrical conductivity and $\epsilon_m$, the relative permittivity.
+  <details><summary><h4 class="menutitle"> 1. Medium </h4> </summary><p class="retrait"> In this section, the user can choose the dielectric properties of the medium which are $\sigma_m$, the electrical conductivity and $\epsilon_m$, the relative permittivity.
 	An additional box allows to indicate the value of the volume fraction $\Phi$. It corresponds to the fraction of the volume of the cells compared to the volume of liquid. This value is needed only for the calculation of the permittivity and conductivity of the suspension of particles with the Maxwell and Asami methods that will be described later.</p>
   </details>
-  <details><summary><h4> 2. Frequencies </h4></summary> <p> In this section, the user can choose the start and stop frequencies of the graph as well as the number of points, logarithmically spaced, that will be used. </p>
+  <details><summary><h4 class="menutitle"> 2. Frequencies </h4></summary> <p> In this section, the user can choose the start and stop frequencies of the graph as well as the number of points, logarithmically spaced, that will be used. </p>
 </details>
-  <details><summary><h4> 3. Model </h4></summary> <p> In this section, the user can choose the particle model that will be implemented. Dielectric particles such as cells are usually represented as concentric shells. Here the user can specify the number of layers that will be used. Moreover, the particle shape can be either spherical or ellipsoidal. The possible models are: </p>
+  <details><summary><h4 class="menutitle"> 3. Model </h4></summary> <p> In this section, the user can choose the particle model that will be implemented. Dielectric particles such as cells are usually represented as concentric shells. Here the user can specify the number of layers that will be used. Moreover, the particle shape can be either spherical or ellipsoidal. The possible models are: </p>
 
   <ul>
       <li> <b>Homogeneous particle:</b> this model corresponds to a completely homogeneous particle.
@@ -127,17 +127,17 @@ It should be noted that tooltips are available for most of the interface paramet
   </div>
 
   </details>
-  <details><summary><h4> 4. Sweep </h4></summary> <p class="retrait"> The Sweep button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
+  <details><summary><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The Sweep button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
   <div class="DIVimage60">
       <img class="im" src='/assets/img/image12_SweepParameters.png' />
   </div>
 
   </details>
-  <details><summary><h4> 5. Calculate </h4></summary> <p class="retrait"> The Calculate button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
+  <details><summary><h4 class="menutitle"> 5. Calculate </h4></summary> <p class="retrait"> The Calculate button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
 	<p class="retrait">If the Sweep button is pressed, the progression of the calculation will be displayed on this button by using a progress bar.</p>
 
   </details>
-  <details><summary><h4> 6. Graphs </h4></summary> <p class="retrait"> The graphs displayed in this section are the following:</p>
+  <details><summary><h4 class="menutitle"> 6. Graphs </h4></summary> <p class="retrait"> The graphs displayed in this section are the following:</p>
 	<ul>
     <li> Clausius-Mossotti factor, abbreviated CM factor (real and/or imaginary part).</li>
     <li> Permittivity:
@@ -201,7 +201,7 @@ It should be noted that tooltips are available for most of the interface paramet
       </li>
 </ul>
      </details>
-  <details><summary> <h4> 7. Results </h4> </summary><p class="retrait"> This section corresponds to an analysis of part of the graphs. The part is different depending on the selected graph:</p>
+  <details><summary><h4 class="menutitle"> 7. Results </h4> </summary><p class="retrait"> This section corresponds to an analysis of part of the graphs. The part is different depending on the selected graph:</p>
       <ul>
         <li>CM factor tab :
           <ul>
@@ -226,7 +226,7 @@ It should be noted that tooltips are available for most of the interface paramet
 
 
      </details>
-  <details><summary> <h4> 8. Display options </h4></summary>
+  <details><summary> <h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
 
@@ -239,7 +239,7 @@ It should be noted that tooltips are available for most of the interface paramet
       </ul>
 
       </details>
-  <details><summary><h4> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
+  <details><summary><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
       <ul>
         <li>File
         <ul><li>Quit: Quit the interface.</li></ul></li>
@@ -303,6 +303,7 @@ It should be noted that tooltips are available for most of the interface paramet
         </ul>
 
 
+ </details>
  </details>
 <details>
 <summary><h2 class="menutitle"> Database </h2></summary>
