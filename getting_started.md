@@ -153,7 +153,7 @@ It should be noted that tooltips are available for most of the interface paramet
     </li>
   </ul>
 
-  <p> <b>Editing curves:</b>
+  <p> <b>Editing curves:</b></p>
   <ul>
       <li> <b>Zooming </b>:<br> You can zoom the graph using the scroll-wheel of your mouse or the zoom functionality of your trackpad. </li>
       <li> <b>Curve properties: </b><br>
@@ -174,7 +174,7 @@ It should be noted that tooltips are available for most of the interface paramet
       <li> Anchoring (horizontal and vertical): This corresponds to the fixed point when the MyDEP interface size is modified on screen or printed. </li>
       <li> Font and font size </li>
       <li> Font color and background color</li>
-      </ul><br></p>
+      </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image13_LegendParameters.png' />
       </div>
@@ -196,7 +196,7 @@ It should be noted that tooltips are available for most of the interface paramet
       </div>
       <br>
       </li>
-
+</ul>
       <h4> 7. Results </h4> <p class="retrait"> This section corresponds to an analysis of part of the graphs. The part is different depending on the selected graph:</p>
       <ul>
         <li>CM factor tab :
