@@ -174,7 +174,7 @@ It should be noted that tooltips are available for most of the interface paramet
       <li> Anchoring (horizontal and vertical): This corresponds to the fixed point when the MyDEP interface size is modified on screen or printed. </li>
       <li> Font and font size </li>
       <li> Font color and background color</li>
-      </ul><br>
+      </ul><br></p>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image13_LegendParameters.png' />
       </div>
