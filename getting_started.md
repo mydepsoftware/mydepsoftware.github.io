@@ -9,6 +9,10 @@ permalink: /getting_started/
     display: inline-block;
 }
 
+h4 {
+	padding-left:5em;
+}
+
 details[open] summary ~ * {
   animation: sweep .5s ease-in-out;
 }
