@@ -230,7 +230,7 @@ It should be noted that tooltips are available for most of the interface paramet
 
 
      </details>
-<details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
+<details  class="tab"><summary><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
 
@@ -338,7 +338,7 @@ A similar principle is applied for the different media in the medium section of 
 
  </details>
 <details>
-<summary><h2 class="menutitle"> Single shell: electrical model </h2></summary>
+<summary><h2 class="menutitle">Single shell: electrical model </h2></summary>
 
 <p>For the Single-shell model an additional feature allows to specify different properties of the cell membrane: either the "Classical Model" ($th_{cm}$, $\sigma_{cm}$ and $\varepsilon_{cm}$) or the "Electrical Model" (specific membrane conductance $G_{cm}$ and capacitance $C_{cm}$). </p>
 
@@ -358,10 +358,9 @@ A similar principle is applied for the different media in the medium section of 
 </ul>
 </p>
 
- </details>
+</details>
 <details>
-<summary>
-<h2 class="menutitle">Specificities of the "homogeneous" particle model </h2></summary>
+<summary><h2 class="menutitle">Specificities of the "homogeneous" particle model </h2></summary>
 
 
 <p>
