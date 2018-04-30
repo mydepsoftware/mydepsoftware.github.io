@@ -230,7 +230,7 @@ It should be noted that tooltips are available for most of the interface paramet
 
 
      </details>
-<details  class="tab"><summary><h4 class="menutitle"> 8. Display options </h4></summary>
+<details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
 
@@ -243,7 +243,7 @@ It should be noted that tooltips are available for most of the interface paramet
       </ul>
 
       </details>
-  <details><summary><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
+  <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
       <ul>
         <li>File
         <ul><li>Quit: Quit the interface.</li></ul></li>
