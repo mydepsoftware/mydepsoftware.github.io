@@ -1,21 +1,4 @@
-/*getting started css*/
-.menutitle {
-    display: inline-block;
-}
 
-.tab {
-	padding-left:5em;
-}
-
-details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
-}
-/*******************/
 
 
 .page-header { color: #fff; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); padding: 0.7rem 0.7rem; }
