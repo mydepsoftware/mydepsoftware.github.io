@@ -361,3 +361,24 @@ To account for surface conductance, the user can either specify :
 </ul>
 </p>
 </details>
+
+<style>
+	/*getting started css*/
+.menutitle {
+    display: inline-block;
+}
+
+.tab {
+	padding-left:5em;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+/*******************/
+</style>
