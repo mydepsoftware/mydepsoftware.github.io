@@ -3,7 +3,7 @@ layout: default
 title:  Getting started
 permalink: /getting_started/
 ---
-
+<head>
 <style>
 .menutitle {
     display: inline-block;
@@ -21,11 +21,9 @@ details[open] summary ~ * {
   0%    {opacity: 0; margin-left: -10px}
   100%  {opacity: 1; margin-left: 0px}
 }
-
+</head>
 </style>
-
 <h1> Getting started </h1>
-
 <details>
 <summary><h2 class="menutitle"> Introduction</h2></summary>
 
