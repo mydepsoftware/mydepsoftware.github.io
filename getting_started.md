@@ -3,26 +3,7 @@ layout: default
 title:  Getting started
 permalink: /getting_started/
 ---
-<head>
-<style>
-.menutitle {
-    display: inline-block;
-}
 
-.tab {
-	padding-left:5em;
-}
-
-details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
-}
-</head>
-</style>
 <h1> Getting started </h1>
 <details>
 <summary><h2 class="menutitle"> Introduction</h2></summary>
