@@ -24,7 +24,7 @@ $\epsilon_{p}^{\ast}$ and $\epsilon_{m}^{\ast}$ refer to the complex permittivit
 $$\epsilon^{\ast}= \epsilon-j\frac{\sigma}{\omega}$$</p>
 
 <p> Development of equation \eqref{equ1} leads to the expression of the generalized DEP force:
-$$\begin{equation}\mathbf{F_{DEP}}=2\pi \epsilon_m r^3 \{Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z)\}\tag{3}\label{FDEPg}\end{equation}$$ </p>
+$$\begin{equation} \mathbf{F_{DEP}}=2\pi \epsilon_m r_{ext}^3 \left\{ Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}\end{equation}$$ </p>
 
 <h3> Conventional dielectrophoresis </h3>
 
