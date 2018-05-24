@@ -33,12 +33,14 @@ $\epsilon_{p}^{\ast}$ and $\epsilon_{m}^{\ast}$ refer to the complex permittivit
 where $\epsilon_i$ is the relative permittivity, $\epsilon_0$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
 <p> Development of equation \eqref{equ1} leads to the expression of the generalized DEP force:
-$$\begin{equation} \mathbf{F_{DEP}}=2\pi \epsilon_m r_{ext}^3 \left\{ Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}\end{equation}$$ </p>
+$$\begin{equation} 
+    \mathbf{F_{DEP}}=2\pi \epsilon_m \epsilon_0 r_{ext}^3 \left\{ Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}
+\end{equation}$$ </p>
 
 <h3> Conventional dielectrophoresis </h3>
 
 <p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEPg} simplifies to :
-$$\mathbf{F_{cDEP}}=2\pi \epsilon_m r^3 Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2$$
+$$\mathbf{F_{cDEP}}=2\pi \epsilon_m\epsilon_0 r_{ext}^3 Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2$$
 This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cDEP). The force depends on the gradient of the squared electric field intensity and exists only in the presence of a non uniform electric field. It is proportional to the volume of the particle, as well as to the real part of the Clausius-Mossotti factor, $ Re[f_ {CM}(\omega)] $. This term reflecting the polarizability contrast between the particle and its immersion medium also determines the direction of the force:
 <ul>
 <li>When the particle is more polarizable than its immersion medium ($Re[f_{CM}(\omega)]>0$), the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
