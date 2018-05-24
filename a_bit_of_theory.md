@@ -14,8 +14,8 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E \tag{1}\label{equ1}\end{equation}$$ where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
 
-<p>For a spherical particle of radius r, the induced dipolar moment is given by:
-$$\mathbf{m}=4\pi \epsilon_{m} f_{CM}(\omega)r^3 \mathbf E$$</p>
+<p>For a spherical particle of radius $r_{ext}$, the induced dipolar moment is given by:
+\mathbf{m}=4\pi \epsilon_{m} f_{CM}(\omega)r_{ext}^3 \mathbf {E} </p>
 
 <p>where $f_{CM}$ is the Clausius-Mossotti factor:
   $$\begin{equation}f_{CM}(\omega)=\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}\tag{2}\label{fCM}\end{equation}$$
