@@ -43,8 +43,8 @@ $$\begin{equation}
 $$\mathbf{F_{cDEP}}=2\pi \epsilon_m\epsilon_0 r_{ext}^3 Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2$$
 This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cDEP). The force depends on the gradient of the squared electric field intensity and exists only in the presence of a non uniform electric field. It is proportional to the volume of the particle, as well as to the real part of the Clausius-Mossotti factor, $ Re[f_ {CM}(\omega)] $. This term reflecting the polarizability contrast between the particle and its immersion medium also determines the direction of the force:
 <ul>
-<li>When the particle is more polarizable than its immersion medium ($Re[f_{CM}(\omega)]>0$), the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
-<li>On the contrary, in the case where the particle is less polarizable than its immersion medium ($Re[f_{CM}(\omega)]<0$), the force moves the particle against the gradient, towards the regions of minimum field intensity, which is referred to as <i>negative dielectrophoresis</i> (nDEP).</li>
+<li>When the particle is more polarizable than its immersion medium $\left(Re[f_{CM}(\omega)]>0 \right)$, the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
+<li>On the contrary, in the case where the particle is less polarizable than its immersion medium $\left(Re[f_{CM}(\omega)]<0 \right)$, the force moves the particle against the gradient, towards the regions of minimum field intensity, which is referred to as <i>negative dielectrophoresis</i> (nDEP).</li>
 </ul>
 </p>
 
