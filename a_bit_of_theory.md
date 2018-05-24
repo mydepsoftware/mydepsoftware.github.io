@@ -15,13 +15,22 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E \tag{1}\label{equ1}\end{equation}$$ where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
 
 <p>For a spherical particle of radius $r_{ext}$, the induced dipolar moment is given by:
-$$\mathbf{m}=4\pi \epsilon_{m} f_{CM}(\omega)r_{ext}^3 \mathbf {E} $$</p>
+$$\mathbf{m}=4\pi \epsilon_{m} \epsilon_{0} f_{CM}(\omega)r_{ext}^3 \mathbf {E} $$</p>
 
 <p>where $f_{CM}$ is the Clausius-Mossotti factor:
-  $$\begin{equation}f_{CM}(\omega)=\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}\tag{2}\label{fCM}\end{equation}$$
-$\epsilon_{p}^{\ast}$ and $\epsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field frequency $\omega$ :
+\begin{equation}
+\label{eq:3}
+f_{CM}(\omega)=\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
+\end{equation}
 
-$$\epsilon^{\ast}= \epsilon-j\frac{\sigma}{\omega}$$</p>
+$\epsilon_{p}^{\ast}$ and $\epsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
+
+\begin{equation}
+\label{eq:4}
+\epsilon_i^{\ast}= \epsilon_i\epsilon_0-j\frac{\sigma_i}{\omega}
+\end{equation}</p>
+
+where $\epsilon_i$ is the relative permittivity, $\epsilon_0$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
 <p> Development of equation \eqref{equ1} leads to the expression of the generalized DEP force:
 $$\begin{equation} \mathbf{F_{DEP}}=2\pi \epsilon_m r_{ext}^3 \left\{ Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}\end{equation}$$ </p>
