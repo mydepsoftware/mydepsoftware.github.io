@@ -14,20 +14,24 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} 
     \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E 
-    \tag{12}
-    \label{equ13}
+    \tag{1}
+    \label{FDEP}
 \end{equation}$$ 
     
 where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
 
 <p>For a spherical particle of radius $r_{ext}$, the induced dipolar moment is given by:
-$$\mathbf{m}=4\pi \varepsilon_{m} \varepsilon_{0} CM(f) r_{ext}^3 \mathbf {E} $$</p>
+$$\mathbf{m}=4\pi \varepsilon_{m} \varepsilon_{0} CM(f) r_{ext}^3 \mathbf {E}     
+    \tag{2}
+    \label{equm}
+    $$</p>
 
 <p>where $CM(f)$ is the Clausius-Mossotti factor:
 \begin{equation}
-\label{eq:3}
+
 CM(f)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast}+2\varepsilon_{m}^{\ast}}
-    \tag{2}
+    \tag{3}
+    \label{equCM}
 \end{equation}
 
 $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
@@ -35,13 +39,16 @@ $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permi
 \begin{equation}
 \label{eq:4}
 \epsilon_i^{\ast}= \varepsilon_{i}\varepsilon_{0}-j\frac{\sigma_i}{\omega}
+\tag{4}
+\label{eps_c}
 \end{equation}</p>
 
 where $\varepsilon_{i}$ is the relative permittivity, $\varepsilon_{0}$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
-<p> Development of equation \eqref{equ1} leads to the expression of the generalized DEP force:
+<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force:
 $$\begin{equation} 
-    \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}
+    \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} 
+    \tag{5}\label{FDEP_full}
 \end{equation}$$ </p>
 
 <h3> Conventional dielectrophoresis </h3>
