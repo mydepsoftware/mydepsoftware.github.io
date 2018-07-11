@@ -12,7 +12,11 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 <p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect).
 </p>
 
-<p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E \tag{1}\label{equ1}\end{equation}$$ where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
+<p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} 
+    \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E 
+    \tag{1}\label{equ1}\end{equation}$$ 
+    
+    where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
 
 <p>For a spherical particle of radius $r_{ext}$, the induced dipolar moment is given by:
 $$\mathbf{m}=4\pi \varepsilon_{m} \varepsilon_{0} CM(f) r_{ext}^3 \mathbf {E} $$</p>
@@ -21,6 +25,7 @@ $$\mathbf{m}=4\pi \varepsilon_{m} \varepsilon_{0} CM(f) r_{ext}^3 \mathbf {E} $$
 \begin{equation}
 \label{eq:3}
 CM(f)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast}+2\varepsilon_{m}^{\ast}}
+    \tag{2}
 \end{equation}
 
 $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
@@ -57,7 +62,7 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
 
 
 <h3> Electrorotation </h3>
-<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann \cite{Arnold_1988}, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
+<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
 
 <p class="retrait"> When a polarizable particle is suspended in a rotating electric field, a dipole forms and should rotate synchronously with the field. In practice, when the angular frequency of the field is sufficiently high, the dipolar relaxation time is too long to allow this synchronism. The temporal shift (or phase delay) resulting between the dipole and the field results in a torque exerted on the particle, of expression:
     $$\langle\mathbf{\Gamma_{EL}}\rangle=\mathbf{m}\times\mathbf{E}=-4\pi r_{ext}^{3}\varepsilon_{m}\varepsilon_0 Im[CM(f)]E^{2}\mathbf{e_z}$$
