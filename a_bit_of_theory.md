@@ -17,10 +17,10 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 <p>For a spherical particle of radius $r_{ext}$, the induced dipolar moment is given by:
 $$\mathbf{m}=4\pi \varepsilon_{m} \varepsilon_{0} CM(f) r_{ext}^3 \mathbf {E} $$</p>
 
-<p>where $f_{CM}$ is the Clausius-Mossotti factor:
+<p>where $CM(f)$ is the Clausius-Mossotti factor:
 \begin{equation}
 \label{eq:3}
-f_{CM}(\omega)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast}+2\varepsilon_{m}^{\ast}}
+CM(f)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast}+2\varepsilon_{m}^{\ast}}
 \end{equation}
 
 $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
@@ -34,17 +34,17 @@ where $\varepsilon_{i}$ is the relative permittivity, $\varepsilon_{0}$ the vacu
 
 <p> Development of equation \eqref{equ1} leads to the expression of the generalized DEP force:
 $$\begin{equation} 
-    \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2+Im[f_{CM}(\omega)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}
+    \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} \tag{3}\label{FDEPg}
 \end{equation}$$ </p>
 
 <h3> Conventional dielectrophoresis </h3>
 
 <p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEPg} simplifies to :
-$$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} varepsilon_{0} r_{ext}^3 Re[f_{CM}(\omega)]\mathbf \nabla E_{RMS}^2$$
-This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cDEP). The force depends on the gradient of the squared electric field intensity and exists only in the presence of a non uniform electric field. It is proportional to the volume of the particle, as well as to the real part of the Clausius-Mossotti factor, $ Re[f_ {CM}(\omega)] $. This term reflecting the polarizability contrast between the particle and its immersion medium also determines the direction of the force:
+$$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} varepsilon_{0} r_{ext}^3 Re[CM(f)]\mathbf \nabla E_{RMS}^2$$
+This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cDEP). The force depends on the gradient of the squared electric field intensity and exists only in the presence of a non uniform electric field. It is proportional to the volume of the particle, as well as to the real part of the Clausius-Mossotti factor, $ Re[CM(f)] $. This term reflecting the polarizability contrast between the particle and its immersion medium also determines the direction of the force:
 <ul>
-<li>When the particle is more polarizable than its immersion medium $\left(Re[f_{CM}(\omega)]>0 \right)$, the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
-<li>On the contrary, in the case where the particle is less polarizable than its immersion medium $\left(Re[f_{CM}(\omega)]<0 \right)$, the force moves the particle against the gradient, towards the regions of minimum field intensity, which is referred to as <i>negative dielectrophoresis</i> (nDEP).</li>
+<li>When the particle is more polarizable than its immersion medium $\left(Re[CM(f)]>0 \right)$, the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
+<li>On the contrary, when the particle is less polarizable than its immersion medium $\left(Re[CM(f)]<0 \right)$, the force moves the particle against the gradient, towards the regions of minimum field intensity, which is referred to as <i>negative dielectrophoresis</i> (nDEP).</li>
 </ul>
 </p>
 
