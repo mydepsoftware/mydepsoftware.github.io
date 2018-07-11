@@ -126,8 +126,8 @@ It should be noted that tooltips are available for most of the interface paramet
     <li> Complex Permittivity corresponding to the modulus of the complex relative permittivity of
 	<ul>
           <li> $ &#x007C $\varepsilon_{eq}^{\ast}) &#x007C \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particle. </li>
-          <li> $ \mix $\varepsilon_{m}^{\ast} \mix/ \varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
-          <li> $ \mix \varepsilon_{mix}^{\ast} \mix \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particles in suspension in the medium. </li>			
+          <li> $ \mix $\varepsilon_{m}^{\ast} \mix / \varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
+          <li> $ \mix \varepsilon_{mix}^{\ast} \mix/ / \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particles in suspension in the medium. </li>			
         </ul>  
     </li> 		
 		</li>
