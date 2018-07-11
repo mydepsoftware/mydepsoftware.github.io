@@ -15,7 +15,7 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} 
     \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E 
     \tag{12}
-    \label{equ1}
+    \label{equ13}
 \end{equation}$$ 
     
 where $U_{El}$ refers to the electric potential energy and $\mathbf E$ to the electric field.</p>
