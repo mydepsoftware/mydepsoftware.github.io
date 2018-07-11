@@ -37,7 +37,6 @@ CM(f)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast
 $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
 
 \begin{equation}
-\label{eq:4}
 \epsilon_i^{\ast}= \varepsilon_{i}\varepsilon_{0}-j\frac{\sigma_i}{\omega}
 \tag{4}
 \label{eps_c}
@@ -53,8 +52,10 @@ $$\begin{equation}
 
 <h3> Conventional dielectrophoresis </h3>
 
-<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEPg} simplifies to :
-$$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 Re[CM(f)]\mathbf \nabla E_{RMS}^2$$
+<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEP_full} simplifies to :
+$$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 Re[CM(f)]\mathbf \nabla E_{RMS}^2 
+    \tag{6}
+\label{FcDEP}$$
 This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cDEP). The force depends on the gradient of the squared electric field intensity and exists only in the presence of a non uniform electric field. It is proportional to the volume of the particle, as well as to the real part of the Clausius-Mossotti factor, $ Re[CM(f)] $. This term reflecting the polarizability contrast between the particle and its immersion medium also determines the direction of the force:
 <ul>
 <li>When the particle is more polarizable than its immersion medium $\left(Re[CM(f)]>0 \right)$, the force acts in the gradient direction and therefore drives the particle towards areas of maximum field intensity. This corresponds to <i>positive dielectrophoresis</i> (pDEP).</li>
