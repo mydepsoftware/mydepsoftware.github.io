@@ -90,3 +90,7 @@ where $\eta$ represents the medium viscosity.</p>
 
 <p>The minus sign indicates that the particle rotates against the field direction for $Im[CM(f)]>0$. Otherwise the direction of rotation is with the field.
 Curve fitting procedures may be used to obtain the dielectric parameters of a cell, by minimizing the deviation between the experimental ROT spectrum (plot of the rotation rate with respect to the field frequency) and the theoretical spectrum predicted by the appropriate multi-shell model. </p>
+
+<h3> Travelling-wave dielectrophoresis (twDEP) </h3>
+
+<p>The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ </p>
