@@ -125,9 +125,9 @@ It should be noted that tooltips are available for most of the interface paramet
     <li> Clausius-Mossotti factor, abbreviated CM factor (real and/or imaginary part).</li>
     <li> Complex Permittivity corresponding to the modulus of the complex relative permittivity of
 	<ul>
-          <li> $ \mid \varepsilon_{eq}^{\ast}\mid / \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particle. </li>
-          <li> $ \mid \varepsilon_{m}^{\ast}\mid / \varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
-          <li> $ \mid \varepsilon_{mix}^{\ast}\mid /  \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particles in suspension in the medium. </li>			
+          <li> $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particle. </li>
+          <li> $|\varepsilon_{m}^{\ast}|/ \varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
+          <li> $|\varepsilon_{mix}^{\ast}| /  \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particles in suspension in the medium. </li>			
         </ul>  		
 		</li>
     <li> Permittivity: 
@@ -195,11 +195,11 @@ It should be noted that tooltips are available for most of the interface paramet
      </details>
   <details><summary class="tab"><h4 class="menutitle"> 7. Results </h4> </summary><p class="retrait"> This section corresponds to an analysis of part of the graphs. The part is different depending on the selected graph:</p>
       <ul>
-        <li>CM factor tab :
+        <li>CM factor tab:
           <ul>
           <li> $Re[CM(f)]$ and $Im[CM(f)]$ button: if pressed the corresponding curves will be displayed.</li>
           <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise they will correspond to yAxis_min and yAxis_max.</li>
-          <li> 	Fcursor button: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, KHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $Re[CM(f)]$, $Im[CM(f)]$, $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $.</li>
+          <li> 	$f_{cursor}$ button: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $Re[CM(f)]$, $Im[CM(f)]$, $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $.</li>
           <li> Baseline button: a horizontal line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
           <li>Legend button: A click on the Legend button will open a popup menu where the properties to display will be available by ticking the corresponding tickbox. The order of the displayed parameters can be modified by clicking on the corresponding arrows. The "user text" box can be used to display the desired text, using html language when needed.</li>
           <li>Crossover frequencies: the different crossover frequencies correspond to the frequencies at which $Re(CM) = 0$</li>
