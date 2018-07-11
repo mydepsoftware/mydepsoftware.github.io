@@ -123,16 +123,26 @@ It should be noted that tooltips are available for most of the interface paramet
   <details><summary class="tab"><h4 class="menutitle"> 6. Graphs </h4></summary> <p class="retrait"> The graphs displayed in this section are the following:</p>
 	<ul>
     <li> Clausius-Mossotti factor, abbreviated CM factor (real and/or imaginary part).</li>
-    <li> Permittivity:
+    <li> Complex Permittivity corresponding to the modulus of the complex relative permittivity of
+	<ul>
+          <li> \mid $\varepsilon_{eq}^{\ast} \mid /\varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particle. </li>
+          <li> \mid $\varepsilon_{m}^{\ast} \mid /\varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
+          <li> \mid $\varepsilon_{mix}^{\ast} \mid /\varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particles in suspension in the medium. </li>			
+        </ul>  
+    </li> 		
+		</li>
+    <li> Permittivity: 
         <ul>
-          <li> $\varepsilon_{eq}Particle$: the equivalent relative permittivity of the particle. </li>
-          <li> $\varepsilon_{eq}Mixture$: the equivalent relative permittivity of the particles in suspension in the medium at the given volume fraction.</li>
+          <li> $\varepsilon_{eq}$: the equivalent relative permittivity of the particle. </li>
+	  <li> $\varepsilon_{m}$: the relative permittivity of the medium. </li>
+          <li> $\varepsilon_{mix}$: the equivalent relative permittivity of the particles in suspension in the medium at the given volume fraction.</li>
         </ul>  
     </li>    
     <li> Conductivity:
         <ul>
-          <li> $\sigma_{eq}Particle$: the equivalent electrical conductivity of the particle. </li>
-          <li> $\sigma_{eq}Mixture$: the equivalent electrical conductivity of the particles in suspension in the medium at the given volume fraction.</li>
+          <li> $\sigma_{eq}$: the equivalent electrical conductivity of the particle. </li>
+	  <li> $\sigma_{m}$: the electrical conductivity of the medium. </li>
+          <li> $\sigma_{mix}$: the equivalent electrical conductivity of the particles in suspension in the medium at the given volume fraction.</li>
         </ul>  
     </li>
     <li>Crossover: This graph corresponds to the different crossover frequencies when the sweep mode is used.
@@ -141,7 +151,7 @@ It should be noted that tooltips are available for most of the interface paramet
 
   <p> <b>Editing curves:</b></p>
   <ul>
-      <li> <b>Zooming </b>:<br> You can zoom the graph using the scroll-wheel of your mouse or the zoom functionality of your trackpad. </li>
+      <li> <b>Zooming</b>:<br> You can zoom the graph using the scroll-wheel of your mouse or the zoom functionality of your trackpad. </li>
       <li> <b>Curve properties: </b><br>
       A left click on a displayed curve will select the curve which will appear in a thicker linestyle. The corresponding parameters used for its creation will be displayed in the left part of the interface (Medium/Frequencies/Model).<br>
       A right click on a displayed curve will cause a popup menu to appear with the following options:
