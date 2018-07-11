@@ -54,3 +54,19 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
     <figcaption class="figcap"><b>Illustration of pDEP principle. A. </b>The particle and its immersion medium get polarized under the effect of the electric field. Here the particle is more polarizable than its immersion medium. <b>B.</b> The net dipole moment $\mathbf m$ is directed in the same direction as the field. Due to the field non uniformity <span class="saut">($E_B>E_A$), coulomb </span>forces exerted on opposed induced charges are unbalanced&nbsp;($F_B>F_A$), which induces a net displacement of the particle towards the region of maximum field intensity.
     </figcaption>
 </div>
+
+
+<h3> Electrorotation </h3>
+<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann \cite{Arnold_1988}, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
+
+<p class="retrait"> When a polarizable particle is suspended in a rotating electric field, a dipole forms and should rotate synchronously with the field. In practice, when the angular frequency of the field is sufficiently high, the dipolar relaxation time is too long to allow this synchronism. The temporal shift (or phase delay) resulting between the dipole and the field results in a torque exerted on the particle, of expression:
+    $$\langle\mathbf{\Gamma_{EL}}\rangle=\mathbf{m}\times\mathbf{E}=-4\pi r_{ext}^{3}\varepsilon_{m}\varepsilon_0 Im[CM(f)]E^{2}\mathbf{e_z}$$
+where $\mathbf{e_z}$ represents the unit vector normal to the electrode plane and $CM(f)$ the Clausius-Mossotti factor. (cf. équation~\ref{eq:3}).</p>
+
+<p> At the equilibrium between induced torque and viscous drag, the rotation rate for a spherical particle is given by: 
+
+$$\Omega(\omega)=-\frac{\epsilon_{0}\epsilon_{m}}{2\eta}Im[CM(f)]E^{2}$$
+where $\eta$ represents the medium viscosity.</p>
+
+<p>The minus sign indicates that the particle rotates against the field direction for $Im[CM(f)]>0$. Otherwise the direction of rotation is with the field.
+Curve fitting procedures may be used to obtain the dielectric parameters of a cell, by minimizing the deviation between the experimental ROT spectrum (plot of the rotation rate with respect to the field frequency) and the theoretical spectrum predicted by the appropriate multi-shell model. </p>
