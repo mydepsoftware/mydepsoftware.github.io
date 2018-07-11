@@ -85,7 +85,7 @@ where $\mathbf{e_z}$ represents the unit vector normal to the electrode plane an
 $$\Omega(\omega)=-\frac{\varepsilon_{0}\varepsilon_{m}}{2\eta}Im[CM(f)]E^{2}
     \tag{8}
 \label{Omega}$$
-$$
+
 where $\eta$ represents the medium viscosity.</p>
 
 <p>The minus sign indicates that the particle rotates against the field direction for $Im[CM(f)]>0$. Otherwise the direction of rotation is with the field.
