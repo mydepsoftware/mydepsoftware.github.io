@@ -198,7 +198,7 @@ It should be noted that tooltips are available for most of the interface paramet
         <li>CM factor tab:
           <ul>
           <li> $Re[CM(f)]$ and $Im[CM(f)]$ button: if pressed the corresponding curves will be displayed.</li>
-          <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise they will correspond to yAxis_min and yAxis_max.</li>
+          <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise they will correspond to $yAxis_{min}$ and $yAxis_{max}$.</li>
           <li> 	$f_{cursor}$ button: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $Re[CM(f)]$, $Im[CM(f)]$, $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $.</li>
           <li> Baseline button: a horizontal line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
           <li>Legend button: A click on the Legend button will open a popup menu where the properties to display will be available by ticking the corresponding tickbox. The order of the displayed parameters can be modified by clicking on the corresponding arrows. The "user text" box can be used to display the desired text, using html language when needed.</li>
