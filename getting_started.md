@@ -209,7 +209,7 @@ It should be noted that tooltips are available for most of the interface paramet
             <li> Particle, Medium and Mixture buttons: if pressed the corresponding curves will be displayed. </li>
             <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
 (respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li>		  
-            <li> $\f_{cursor}: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the $At f_{cursor}$ box.</li>
+            <li> $f_{cursor}$: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the $At f_{cursor}$ box.</li>
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>
