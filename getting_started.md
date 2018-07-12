@@ -192,7 +192,7 @@ It should be noted that tooltips are available for most of the interface paramet
      </details>
      
   <details><summary class="tab"><h4 class="menutitle"> 7. Results </h4> </summary><p class="retrait"> This section corresponds to an analysis of part of the graphs. The part is different depending on the selected graph:</p>
-      <ul>
+<ul>
         <li>CM factor tab:
           <ul>
           <li> $Re[CM(f)]$ and $Im[CM(f)]$ button: if pressed the corresponding curves will be displayed.</li>
@@ -214,15 +214,16 @@ It should be noted that tooltips are available for most of the interface paramet
           </ul>
         </li>
         <li> Crossover tab: if a sweep is performed on the $sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
-		  <ul>
+		<ul>
 		<li> $Lower$ and $Upper$: if pressed the corresponding curves will be displayed. </li>
     		<li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
           	<li> $\sigma_{m} (S/m)$ button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
             	<li> $f_{cursor}$: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the $At \sigma_{m}$ box.</li>
-<li> Remark: If both the $\sigma_{m} (S/m)$ and $f_{cursor}$ buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>
+<li> Remark: If both the $\sigma_{m} (S/m)$ and $f_{cursor}$ buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>	
+		</ul>	
       	</li>
-		</ul>	    
-	                </ul>
+    
+</ul>
 </details>
 	
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
