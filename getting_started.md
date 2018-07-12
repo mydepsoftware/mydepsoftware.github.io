@@ -221,9 +221,8 @@ It should be noted that tooltips are available for most of the interface paramet
 <li> Remark: If both the $\sigma_{m} (S/m)$ and $f_{cursor}$ buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>
           </ul>
         </li>    
-	
-	
      </details>
+	
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
