@@ -161,7 +161,6 @@ It should be noted that tooltips are available for most of the interface paramet
         <li> Delete curve: Delete the specific curve. </li>
       </ul>
       </li>
-
       <li> <b>Legend:</b><br>
       The legend can be moved in the graph by dragging it. The following parameters can be modified by right-clicking on the legend -> Legend parameters:
       <ul>
@@ -176,10 +175,8 @@ It should be noted that tooltips are available for most of the interface paramet
       <br>
       In the Sweep mode the legend will display the properties of the last generated curve (default mode) or the selected curve.
       </li>
-
       <li> <b>Axis properties:</b><br>
       A right click on the axes will give access to the Grid and labels parameters menu. This menu offers the possibility to change:
-
       <ul>
       <li> The displayed axis properties: horizontal and vertical axis labels (possibility to use html for special characters), the font and the font size</li>
       <li> The unit properties: font and font size. </li>
