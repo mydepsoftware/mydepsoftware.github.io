@@ -228,11 +228,11 @@ It should be noted that tooltips are available for most of the interface paramet
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
-      	 <li> <i> Clear fig</i> button: Clear fig removes all curves from the Graph section</li>
+      	 <li> <i> <b> Clear fig </b> </i> button: Clear fig removes all curves from the Graph section</li>
          <li> $X Log$ button: If X Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
          <li> $Y Log$ button: If Y Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
          <li> $Hold on$ button:  Hold on retains plots in the current axes so that new plots added to the axes do not delete existing plots.</li>
-         <li> <i>Reset zoom</i> button: Reset zoom resets the graph to its initial zoom.</li>
+         <li> <i> <b>Reset zoom</b> </i> button: Reset zoom resets the graph to its initial zoom.</li>
          <li> $Legend$ button: Legend displays the legend in the graph.</li>
       </ul>
       </details>
