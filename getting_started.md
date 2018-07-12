@@ -312,7 +312,7 @@ It should be noted that tooltips are available for most of the interface paramet
     <li> The Author </li>
     <li> The Title of the Article </li>
     <li>The journal where the data were published </li>
-    <li> The DOI or link where the article can be found (For a given DOI_ex, the article can be found at dx.doi.org/DOI_ex </li>
+    <li> The DOI or link where the article can be found (For a given DOI_ex, the article can be found at dx.doi.org/DOI_ex)</li>
     <li> The year of publication </li>
     <li> Remarks: if additional comments are needed </li>
 </ul>
