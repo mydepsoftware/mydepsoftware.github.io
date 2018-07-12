@@ -155,7 +155,7 @@ It should be noted that tooltips are available for most of the interface paramet
       A left click on a displayed curve will select the curve which will appear in a thicker linestyle. The corresponding parameters used for its creation will be displayed in the left part of the interface (Medium/Frequencies/Model).<br>
       A right click on a displayed curve will cause a popup menu to appear with the following options:
       <ul>
-        <li>Curve parameters: The line style of the curve and its width can be adjusted as well as its color with Swatches, HSV, HSL, RGB and CMYK color models.</li>
+        <li>Curve parameters: The line style of the curve and its width can be adjusted as well as its color with Swatches, HSV, HSL, RGB and CMYK color models. Each point of the curve can also be represented by a marker for which the type and size can be adjusted.</li>
         <li> Sweep curve parameters:
          If the curve was generated in the sweep mode (sweep of one parameter), this menu enables to modify the line style, line width and color of all the curves generated during the sweep. </li>
         <li> Delete curve: Delete the specific curve. </li>
