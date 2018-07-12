@@ -205,7 +205,7 @@ It should be noted that tooltips are available for most of the interface paramet
         </li>
         <li> Complex Permittivity, Permittivity and Conductivity tabs:
           <ul>
-            <li> Particle, Medium and Mixture buttons: if pressed the corresponding curves will be displayed </li>
+            <li> Particle, Medium and Mixture buttons: if pressed the corresponding curves will be displayed. </li>
             <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
 (respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li>		  
             <li> Fcursor: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $\varepsilon_{eq}Particle$ and $\varepsilon_{eq}Mixture$  (respectively $\sigma_{eq}Particle$ and $\sigma_{eq}Mixture$).</li>
@@ -214,8 +214,8 @@ It should be noted that tooltips are available for most of the interface paramet
         </li>    
         <li> Crossover tab: if a sweep is performed on the $sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
           <ul>
-		<li> $Lower$ and $Upper$: if pressed the corresponding curves will be displayed </li>
-    		<li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$ </li>
+		<li> $Lower$ and $Upper$: if pressed the corresponding curves will be displayed. </li>
+    		<li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
           	<li> $\sigma_{m} (S/m)$ button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
             	<li> $f_{cursor}$: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the $At \sigma_{m}$ box.</li>
 </ul>
