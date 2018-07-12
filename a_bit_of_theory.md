@@ -37,7 +37,7 @@ CM(f)=\frac{\varepsilon_{p}^{\ast}-\varepsilon_{m}^{\ast}}{\varepsilon_{p}^{\ast
 $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permittivities of particle and medium, which depend on their respective conductivities and permittivities and on the field angular frequency $\omega$ :
 
 \begin{equation}
-\epsilon_i^{\ast}= \varepsilon_{i}\varepsilon_{0}-j\frac{\sigma_i}{\omega}
+\varepsilon_i^{\ast}= \varepsilon_{i}\varepsilon_{0}-j\frac{\sigma_i}{\omega}
 \tag{4}
 \label{eps_c}
 \end{equation}</p>
