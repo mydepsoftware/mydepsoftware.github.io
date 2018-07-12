@@ -123,7 +123,7 @@ It should be noted that tooltips are available for most of the interface paramet
   <details><summary class="tab"><h4 class="menutitle"> 6. Graphs </h4></summary> <p class="retrait"> The graphs displayed in this section are the following:</p>
 	<ul>
     <li> Clausius-Mossotti factor, abbreviated CM factor (real and/or imaginary part).</li>
-    <li> Complex Permittivity corresponding to the modulus of the complex relative permittivity of
+    <li> Complex Permittivity:
 	<ul>
           <li> $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0}$: the modulus of the equivalent complex relative permittivity of the particle. </li>
           <li> $|\varepsilon_{m}^{\ast}|/ \varepsilon_{0}$: the modulus of the complex relative permittivity of the medium. </li>
@@ -199,17 +199,19 @@ It should be noted that tooltips are available for most of the interface paramet
           <ul>
           <li> $Re[CM(f)]$ and $Im[CM(f)]$ button: if pressed the corresponding curves will be displayed.</li>
           <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise they will correspond to $yAxis_{min}$ and $yAxis_{max}$.</li>
-          <li> 	$f_{cursor}$ button: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $Re[CM(f)]$, $Im[CM(f)]$, $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $.</li>
-          <li> Baseline button: a horizontal line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
-          <li>Legend button: A click on the Legend button will open a popup menu where the properties to display will be available by ticking the corresponding tickbox. The order of the displayed parameters can be modified by clicking on the corresponding arrows. The "user text" box can be used to display the desired text, using html language when needed.</li>
-          <li>Crossover frequencies: the different crossover frequencies correspond to the frequencies at which $Re[CM(f)] = 0$</li>
+          <li> 	$f_{cursor}$ button: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $Re[CM(f)]$, $Im[CM(f)]$, $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| are displayed in the $At f_{cursor} box.</li>
+          <li> $Baseline$ button: a horizontal line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
+          <li> $Legend$ button: A click on the Legend button will open a popup menu where the properties to display will be available by ticking the corresponding tickbox. The order of the displayed parameters can be modified by clicking on the corresponding arrows. The "user text" box can be used to display the desired text, using html language when needed.</li>
+          <li> Re Crossover: the different crossover frequencies correspond to the frequencies at which $Re[CM(f)] = 0$</li>
+	  <li> Im MinMax: the frequencies at which $Im[CM(f)]$ is minimal and maximal</li>
           </ul>
         </li>
-        <li> Permittivity and Conductivity tabs:
+        <li> Complex Permittivity, Permittivity and Conductivity tabs:
           <ul>
-            <li> Particle and Mixture buttons: if pressed the corresponding curves will be displayed </li>
-            <li> 	Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $\varepsilon_{min}$ and $\varepsilon_{max}$ (respectively $\sigma_{min}$ and $\sigma_{max}$).</li>
-            <li>	Fcursor: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, KHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $\varepsilon_{eq}Particle$ and $\varepsilon_{eq}Mixture$  (respectively $\sigma_{eq}Particle$ and $\sigma_{eq}Mixture$).</li>
+            <li> Particle, Medium and Mixture buttons: if pressed the corresponding curves will be displayed </li>
+            <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
+(respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li		  
+            <li> Fcursor: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of $\varepsilon_{eq}Particle$ and $\varepsilon_{eq}Mixture$  (respectively $\sigma_{eq}Particle$ and $\sigma_{eq}Mixture$).</li>
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>    
