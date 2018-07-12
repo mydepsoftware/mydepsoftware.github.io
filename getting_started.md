@@ -213,6 +213,7 @@ It should be noted that tooltips are available for most of the interface paramet
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>    
+	                </ul>
 </details>
 	
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
