@@ -4,4 +4,4 @@ title:  Tutorials
 permalink: /tutorials/
 ---
 
-<p> Under construction </p>
+<h1> <center> <i> Under construction </i> </center> </h1>
