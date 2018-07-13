@@ -83,7 +83,24 @@ It should be noted that tooltips are available for most of the interface paramet
         <div class="DIVimage">
             <img class="im" src='/assets/img/image07_single.png' />
         </div><br>
-	      <details><summary class="tab"><h5 class="menutitle"> Single shell: electrical model </h5> </summary><p class="retrait"> Test du fonctionnement</p>
+
+<details><summary class="tab"><h5 class="menutitle"> Single shell: electrical model </h5> </summary>
+<p class="retrait"> For the Single-shell model an additional feature allows to specify different properties of the cell membrane: either the "Classical Model" ($th_{cm}$, $\sigma_{cm}$ and $\varepsilon_{cm}$) or the "Electrical Model" (specific membrane conductance $G_{cm}$ and capacitance $C_{cm}$). </p>
+<p>
+<ul>
+    <li>From "Classical Model" to "Electrical Model":<br>
+    If the "Classical Model" is selected, a click on the "Convert" button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
+    $$G_{cm}=\frac{\sigma_{cm}}{th_{cm}}$$
+    $$C_{cm}=\frac{\varepsilon_{cm}}{th_{cm}}$$
+    A click on "Electrical Model" will use the calculated values.<br>
+    </li>
+    <li>
+    From "Electrical Model" to "Classical Model":<br>
+    If the "Electrical Model" is selected, a click on the "Convert" button will make the $th_{cm}$ box accessible. Once the value is entered, press the "ok" button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
+    A click on "Classical Model" will use the calculated values.
+    </li>
+</ul>
+</p>
   </details>
       </li>
       <li> <b>Two-shell:</b> this model corresponds to a particle with two outside layers. For a cell it corresponds to a cytoplasm surrounded by a cell membrane and a cell wall.
