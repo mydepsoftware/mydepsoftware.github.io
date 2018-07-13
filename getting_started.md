@@ -397,11 +397,19 @@ To account for surface conductance, the user can either specify :
         </li>
 	<li> Graphs
 		<ul>
-			<li>Print</li>
-			<li>Export</li>
+            		<li> Print: Print the graph displayed on the screen using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter </li>
+			<li> Export</li>
 				<ul>
-					<li>Image</li>
-					<li>CSV</li>
+					<li>Image: Open a popupmenu for exporting the graph displayed on the screen. The following parameters can be choosen:
+						<ul>
+                						<li> Output format (A5 to A0 or personalized by specifying the width and height.</li>
+	              					<li> Resolution: 75, 150, 300 or 600 dpi.</li>
+                						<li> Orientation. </li>
+               		 				<li> Keep screen aspect ratio: keep the same aspect ration as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
+                						<li> File format: pdf, jpg, bmp, gif, png, jpeg. </li>
+              					</ul>
+					</li>
+					<li>CSV: Export blabla</li>
 				</ul> 
 			<li>Import CSV curve</li>
 		</ul> </li>
