@@ -269,12 +269,12 @@ To account for surface conductance, the user can either specify :
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
-      	 <li> <i> <b> Clear fig </b> </i> button: Clear fig removes all curves from the Graph section</li>
-         <li> <i> <b> X Log </b> </i> button: If X Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
-         <li> <i> <b>Y Log </b> </i> button: If Y Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
-         <li> <i> <b> Hold on </b> </i>  button:  Hold on retains plots in the current axes so that new plots added to the axes do not delete existing plots.</li>
-         <li> <i> <b>Reset zoom</b> </i> button: Reset zoom resets the graph to its initial zoom.</li>
-         <li> <i> <b> Legend </b> </i>button: Legend displays the legend in the graph.</li>
+      	 <li> <b> Clear fig </b> button: Clear fig removes all curves from the Graph section</li>
+         <li> <b> X Log </b> button: If X Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
+         <li> <b>Y Log </b> button: If Y Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
+         <li> <b> Hold on </b> button:  Hold on retains plots in the current axes so that new plots added to the axes do not delete existing plots.</li>
+         <li> <b>Reset zoom</b> button: Reset zoom resets the graph to its initial zoom.</li>
+         <li> <b> Legend </b> button: Legend displays the legend in the graph.</li>
       </ul>
       </details>
   <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
