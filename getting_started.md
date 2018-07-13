@@ -250,7 +250,7 @@ To account for surface conductance, the user can either specify :
             <li> <b> Particle </b>, <b> Medium </b> and <b> Mixture </b>buttons: If pressed the corresponding curves will be displayed. </li>
             <li> <b> Min Max auto </b> button: If pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
 (respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li>		  
-            <li> <b> f<sub>cursor</sub> </b>: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the <i> At f<sub>cursor</sub> </i> box.</li>
+            <li> <b> f<sub>cursor</sub></b>: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the <i> At f<sub>cursor</sub></i> box.</li>
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>
@@ -258,7 +258,7 @@ To account for surface conductance, the user can either specify :
 		<ul>
 		<li> <b> Lower </b> and <b> Upper </b>: if pressed the corresponding curves will be displayed. </li>
     		<li> <b> Min Max auto </b> button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
-          	<li> $\sigma_{m} (S/m)$ &sigma;<sub>m</sub> button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
+          	<li> <b> &sigma;<sub>m</sub> (S/m)</b> button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
             	<li> $f_{cursor}$: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the $At  \sigma_{m}$ box.</li>
 <li> Remark: If both the $\sigma_{m} (S/m)$ and $f_{cursor}$ buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>	
 		</ul>	
