@@ -77,6 +77,27 @@ It should be noted that tooltips are available for most of the interface paramet
         <div class="DIVimage">
             <img class="im" src='/assets/img/image06_homogeneous.png' />
         </div><br>
+<details><summary class="tab"><h5 class="menutitle"> Specificities of the "homogeneous" particle model </h5> </summary>
+
+<p class="retrait"> Test du fonctionnement
+The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for depolarization factor and all the calculations.
+
+For small particles, surface charges affect significantly their dielectric response and should be taken into account, as shown by the formula:
+
+$$ \sigma_p=\sigma_{p bulk}+\frac{2K_s^i}{r}+\frac{2K_s^d}{r}$$
+
+where<br>
+$\sigma_{p bulk}$: bulk electrical conductivity of the particle <br>
+$K_s^i$: Stern layer conductance <br>
+$K_s^d$: diffuse layer conductance <br>
+
+To account for surface conductance, the user can either specify :
+<ul>
+  <li> $K_s^i$ and $K_s^d$ </li>
+  <li> $K_s^i$ and the zeta potential $\zeta$. </li>
+</ul>
+</p>
+  </details>	            
       </li>
       <li> <b>Single-shell:</b> this model corresponds to a particle with an outside layer. For a cell it typically represents a cytoplasm surrounded by a lipid membrane.
         <br><br>
