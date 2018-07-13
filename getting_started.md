@@ -377,7 +377,7 @@ To account for surface conductance, the user can either specify :
                 				<li>Graphs.</li>
                 				<li>Results and Display options.</li>
 				</ul>
-           		<p>Closing the Graphs or Results and Display parts will redock them all together.</p>
+           			<p>Closing the Graphs or Results and Display parts will redock them all together.</p>
 			</li>
         			<li> Print: Print the interface using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter.</li>
 			<li> Export</li>
@@ -394,6 +394,7 @@ To account for surface conductance, the user can either specify :
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
              		 		</div>
            			</br>
+			</li> 
 		</ul>
         </li>
 	<li> Graphs
