@@ -83,6 +83,8 @@ It should be noted that tooltips are available for most of the interface paramet
         <div class="DIVimage">
             <img class="im" src='/assets/img/image07_single.png' />
         </div><br>
+	      <details><summary class="tab"><h5 class="menutitle"> Single shell: electrical model </h5> </summary><p class="retrait"> Test du fonctionnement</p>
+  </details>
       </li>
       <li> <b>Two-shell:</b> this model corresponds to a particle with two outside layers. For a cell it corresponds to a cytoplasm surrounded by a cell membrane and a cell wall.
         <br><br>
