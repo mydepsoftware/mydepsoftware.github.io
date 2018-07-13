@@ -358,8 +358,8 @@ To account for surface conductance, the user can either specify :
 						<ul> 
 							<li> Partial user database: Open a popup window where the user select the models created he wants to export. 
 								<ul>
-									<li> <b> Save </b> button: the database will be saved at the desired location.
-									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.
+									<li> <b> Save </b> button: the database will be saved at the desired location.</li>
+									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
 									<li> <b> Cancel</b> button: Cancel the export.</li>
 								</ul> </li>	
 							<li> Full user database: Save at the desired location the full user database</li>
