@@ -199,17 +199,17 @@ To account for surface conductance, the user can either specify :
       <ul>
         <li>Curve parameters: The line style of the curve and its width can be adjusted as well as its color with Swatches, HSV, HSL, RGB and CMYK color models. Each point of the curve can also be represented by a marker for which the type and size can be adjusted.</li>
         <li> Sweep curve parameters:
-         If the curve was generated in the sweep mode (sweep of one parameter), this menu enables to modify the line style, line width and color of all the curves generated during the sweep. </li>
+         If the curve was generated in the Sweep mode (sweep of one parameter), this menu enables to modify the line style, line width and color of all the curves generated during the sweep. </li>
         <li> Delete curve: Delete the specific curve. </li>
       </ul>
       </li>
       <li> <b>Legend:</b><br>
       The legend can be moved in the graph by dragging it. The following parameters can be modified by right-clicking on the legend -> Legend parameters:
       <ul>
-      <li> Opacity of the legend: By default, the legend background is opaque but can become transparent by unclicking the button.</li>
+      <li> Opacity of the legend: By default, the legend background is opaque but can become transparent by unclicking the <i> <b> Opaque </b> </i> button.</li>
       <li> Anchoring (horizontal and vertical): This corresponds to the fixed point when the MyDEP interface size is modified on screen or printed. </li>
       <li> Font and font size </li>
-      <li> Font color and background color</li>
+      <li> Font color and Background color</li>
       </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image13_LegendParameters.png' />
@@ -222,7 +222,6 @@ To account for surface conductance, the user can either specify :
       <ul>
       <li> The displayed axis properties: horizontal and vertical axis labels (possibility to use html for special characters), the font and the font size</li>
       <li> The unit properties: font and font size. </li>
-      <li> Font and font size. </li>
       <li> The major grid and minor grid parameters: line style, line width and color.</li>
       </ul><br>
       <div class="DIVimage">
