@@ -362,18 +362,18 @@ To account for surface conductance, the user can either specify :
 									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
 									<li> <b> Cancel</b> button: Cancel the export.</li>
 								</ul> </li>	
-							<li> Full user database: Save at the desired location the full user database</li>
-	 						<li> Initial database: Save at the desired location the initial database provided with MyDEP</li>
+							<li> Full user database: Save at the desired location the full user database.</li>
+	 						<li> Initial database: Save at the desired location the initial database provided with MyDEP.</li>
 						</ul> 
 				</ul> 
 			<li>Download database from GitHub: Download the initial database from the MyDEP GitHub page.</li>
-			<li>Check for database updates at startup: Check if a new version of the initial database is available online at startup</li>
+			<li>Check for database updates at startup: Check if a new version of the initial database is available online at startup.</li>
 		</ul></li>
 	<li> Interface
 		<ul>
 			<li>Undock windows: This option allows to separate the myDEP interface in 3 parts:
 				<ul>
-                				<li>The parameters part containing the left part of the interface (Medium/Frequencies/Model)</li>
+                				<li>The parameters part containing the left part of the interface (Medium/Frequencies/Model).</li>
                 				<li>Graphs</li>
                 				<li>Results and Display options</li>
 				</ul>
