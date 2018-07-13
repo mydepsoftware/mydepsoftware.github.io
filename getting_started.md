@@ -257,7 +257,7 @@ To account for surface conductance, the user can either specify :
         <li> Crossover tab: if a sweep is performed on the $\sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
 		<ul>
 		<li> <b> Lower </b> and <b> Upper </b>: if pressed the corresponding curves will be displayed. </li>
-    		<li> <b> Min Max auto </b> button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
+    		<li> <b> Min Max auto </b> button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to Frequency<sub>min</sub> and Frequency<sub>max</sub>. </li>
           	<li> <b> &sigma;<sub>m</sub> (S/m)</b> button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
             	<li> <b> f<sub>cursor</sub></b>: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the <i>At &sigma;<sub>m</sub></i> box.</li>
 <li> Remark: If both the <b> &sigma;<sub>m</sub> (S/m)</b> and <b> f<sub>cursor</sub></b> buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>	
