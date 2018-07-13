@@ -91,7 +91,7 @@ $$ \sigma_p=\sigma_{p bulk}+\frac{2K_s^i}{r}+\frac{2K_s^d}{r}$$
 where<br>
 $\sigma_{p bulk}$: bulk electrical conductivity of the particle <br>
 $K_s^i$: Stern layer conductance <br>
-$K_s^d$: diffuse layer conductance <br>
+$K_s^d$: Diffuse layer conductance <br>
 
 To account for surface conductance, the user can either specify :
 <ul>
@@ -119,7 +119,7 @@ To account for surface conductance, the user can either specify :
     </li>
     <li>
     From "Electrical Model" to "Classical Model":<br>
-    If the "Electrical Model" is selected, a click on the "Convert" button will make the $th_{cm}$ box accessible. Once the value is entered, press the "ok" button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
+    If the "Electrical Model" is selected, a click on the "Convert" button will make the $th_{cm}$ box accessible. Once the value is entered, press the "OK" button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
     A click on "Classical Model" will use the calculated values.
     </li>
 </ul>
