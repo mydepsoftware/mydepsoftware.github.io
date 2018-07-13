@@ -412,9 +412,12 @@ To account for surface conductance, the user can either specify :
 					<li>CSV: Export blabla</li>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image18_ExportCSV.png' />
-             		 			</div>					
+             		 			</div>
 				</ul> 
 			<li>Import CSV curve</li>
+              					<div class="DIVimage">
+                  				<img class="im" src='/assets/img/image19_ImportCSV.png' />
+             		 			</div>
 		</ul> </li>
 	<li> Tools
 		<ul>
