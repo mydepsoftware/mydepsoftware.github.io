@@ -281,63 +281,6 @@ To account for surface conductance, the user can either specify :
   <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
       <ul>
         <li>File
-        <ul><li>Quit: Quit the interface.</li></ul></li>
-        <li> Data
-        <ul><li>Import: Import a new database.</li>
-            <li>Export:
-              <ul> <li> user database: Export the user database (user_database.txt) at the desired location. By default the user_database.txt file is generated in the mydep directory each time the MyDEP software is closed.</li>
-              <li> complete_database: Export the complete database (database .txt and user_database.txt merged) at the desired location. </li>
-              <li> mixture -> Asami-Hanai parameters-> Number of increments: set the number of increments used to calculate the mixture equivalent permittivity using the Asami-Hanai formula. </li>
-              </ul>
-            </li>
-        </ul>
-        </li>
-        <li> Interface
-        <ul><li> Print: Print the interface using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter.</li>
-            <li> Export: Open a popupmenu for exporting the interface as displayed in the following image. The following parameters can be choosen:
-              <ul>
-                <li>	Output format: A5 to A0 or personalized by specifying the width and height.
-                </li>
-                <li> Resolution: 75, 150, 300 or 600 dpi.
-                </li>
-                <li> Orientation.
-                </li>
-                <li> Keep screen aspect ratio: keep the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.
-                </li>
-                <li> File format: pdf, jpg, bmp, gif, png, jpeg.
-                </li>
-              </ul>
-              <br>
-              <div class="DIVimage">
-                  <img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
-              </div>
-           </li>
-        </ul>
-        </li>
-        <li> Graph
-        <ul><li> Undock windows: This option allows to separate the myDEP interface in 3 parts:
-              <ul>
-                <li>The parameters part containing the left part of the interface (Medium/Frequencies/Model)</li>
-                <li>Graphs</li>
-                <li>Results and Display options</li>
-              </ul>
-            <p>Closing  the Graphs or Results and Display parts will redock them all together.</p></li>
-            <li> Print: Print the graph displayed on the screen using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter </li>
-            <li> Export: Open a popupmenu for exporting the graph displayed on the screen. The following parameters can be choosen:
-              <ul>
-                <li> Output format (A5 to A0 or personalized by specifying the width and height.</li>
-	              <li> Resolution: 75, 150, 300 or 600 dpi.</li>
-                <li> Orientation. </li>
-                <li> Keep screen aspect ratio: keep the same aspect ration as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
-                <li> File format: pdf, jpg, bmp, gif, png, jpeg. </li>
-              </ul>
-            </li>
-            <li> Grid and labels parameters: already explained in the Graph section</li>
-            <li> Legend parameters: already explained in the Graph section</li>
-        </ul>
-        </li>
-        <li> Help </li>
-        <li>File
 		<ul><li>Quit: Quit the interface.</li></ul></li>
         <li> Database
 		<ul>
@@ -402,19 +345,25 @@ To account for surface conductance, the user can either specify :
 				<ul>
 					<li>Image: Open a popupmenu for exporting the graph displayed on the screen. The following parameters can be choosen:
 						<ul>
-                						<li> Output format (A5 to A0 or personalized by specifying the width and height.</li>
+                						<li> Output format: A5 to A0 or personalized by specifying the width and height.</li>
 	              					<li> Resolution: 75, 150, 300 or 600 dpi.</li>
                 						<li> Orientation. </li>
                		 				<li> Keep screen aspect ratio: keep the same aspect ration as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
                 						<li> File format: pdf, jpg, bmp, gif, png, jpeg. </li>
               					</ul>
 					</li>
-					<li>CSV: Export blabla</li>
+					<li>CSV: Export the selected parameters can 
+						<ul> 
+							<li> Crossover frequencies: frequencies and conductivities of each crossover frequencies points displayed in the Crossover tab </li>
+							<li> Other: CM factor (Real and Imaginary parts), Complexe Permittivity, Permittivity and Conductivity for the particle, the medium and the suspension displayed in the related tabs. The legend can be displayed in the first line of the CSV file if selected.</li>
+              					</ul>
+					</li>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image18_ExportCSV.png' />
              		 			</div>
 				</ul> 
 			<li>Import CSV curve</li>
+				<li> MyDEP allows to import a CSV file </li>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image19_ImportCSV.png' />
              		 			</div>
@@ -430,14 +379,14 @@ To account for surface conductance, the user can either specify :
 				</ul> 
             		<li> Grid and labels parameters: already explained in the Graph section</li>
            		<li> Legend parameters: already explained in the Graph section</li>
-           		<li> Check for MyDEP updates at startup</li>
+           		<li> Check for MyDEP updates at startup: Check if a new version of MyDEP is available online at startup</li>
 		</ul> </li>
 	<li> Help
 		<ul>
-			<li>Online ressources</li>
-			<li>About MyDEP</li>
-			<li>About MyDEP licensing</li>
-			<li>Contact</li>
+			<li>Online ressources: Brings the user to the MyDEP GitHub page</li>
+			<li>About MyDEP: Opens a popup where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
+			<li>About MyDEP licensing: Opens a popup where the MyDEP licence is displayed</li>
+			<li>Contact: Opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address</li>
 		</ul> </li>
 </ul>
 
