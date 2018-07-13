@@ -279,12 +279,12 @@ To account for surface conductance, the user can either specify :
       </details>
   
   <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
-      <ul>
+<ul>
         <li>File
 		<ul><li>Quit: Quit the interface.</li></ul></li>
         <li> Database
 		<ul>
-			<li>Search: Search open a popup menu where all data from the database are visible. It’s possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
+			<li>Search: Search open a popup menu where all data from the database are visible. It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
 			<li>Import: Import a new database in the following formats: </li>
 				<ul> 
 					<li> Tab-separated database </li>
@@ -377,16 +377,16 @@ To account for surface conductance, the user can either specify :
 							<li> Number of increments: set the number of increments used to calculate the mixture equivalent permittivity using the Asami-Hanai formula. </li>
 						</ul>
 				</ul> 
-            		<li> Grid and labels parameters: already explained in the Graph section</li>
-           		<li> Legend parameters: already explained in the Graph section</li>
-           		<li> Check for MyDEP updates at startup: Check if a new version of MyDEP is available online at startup</li>
+            		<li> Grid and labels parameters: already explained in the Graph section.</li>
+           		<li> Legend parameters: already explained in the Graph section.</li>
+           		<li> Check for MyDEP updates at startup: Check if a new version of MyDEP is available online at startup.</li>
 		</ul> </li>
 	<li> Help
 		<ul>
-			<li>Online ressources: Brings the user to the MyDEP GitHub page</li>
+			<li>Online ressources: Brings the user to the MyDEP GitHub page.</li>
 			<li>About MyDEP: Opens a popup where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
-			<li>About MyDEP licensing: Opens a popup where the MyDEP licence is displayed</li>
-			<li>Contact: Opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address</li>
+			<li>About MyDEP licensing: Opens a popup where the MyDEP licence is displayed.</li>
+			<li>Contact: Opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
 		</ul> </li>
 </ul>
 
