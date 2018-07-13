@@ -360,7 +360,7 @@ To account for surface conductance, the user can either specify :
 								<ul>
 									<li> <b> Save </b> button: the database will be saved at the desired location.
 									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.
-									<li> <b> Cancel</b> button: Cancel the export.
+									<li> <b> Cancel</b> button: Cancel the export.</li>
 								</ul> </li>	
 							<li> Full user database: Save at the desired location the full user database</li>
 	 						<li> Initial database: Save at the desired location the initial database provided with MyDEP</li>
