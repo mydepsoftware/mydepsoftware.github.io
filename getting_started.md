@@ -250,16 +250,16 @@ To account for surface conductance, the user can either specify :
             <li> <b> Particle </b>, <b> Medium </b> and <b> Mixture </b>buttons: If pressed the corresponding curves will be displayed. </li>
             <li> <b> Min Max auto </b> button: If pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
 (respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li>		  
-            <li> <b> f<sub>cursor</sub></b>: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the <i> At f<sub>cursor</sub></i> box.</li>
+            <li> <b> f<sub>cursor</sub></b>: A vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the <i> At f<sub>cursor</sub></i> box.</li>
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>
-        <li> Crossover tab: if a sweep is performed on the $\sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
+        <li> Crossover tab: If a sweep is performed on the $\sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
 		<ul>
-		<li> <b> Lower </b> and <b> Upper </b>: if pressed the corresponding curves will be displayed. </li>
-    		<li> <b> Min Max auto </b> button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to Frequency<sub>min</sub> and Frequency<sub>max</sub>. </li>
-          	<li> <b> &sigma;<sub>m</sub> (S/m)</b> button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
-            	<li> <b> f<sub>cursor</sub></b>: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the <i>At &sigma;<sub>m</sub></i> box.</li>
+		<li> <b> Lower </b> and <b> Upper </b>: If pressed the corresponding curves will be displayed. </li>
+    		<li> <b> Min Max auto </b> button: If pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to Frequency<sub>min</sub> and Frequency<sub>max</sub>. </li>
+          	<li> <b> &sigma;<sub>m</sub> (S/m)</b> button: A vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
+            	<li> <b> f<sub>cursor</sub></b>: A horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the <i>At &sigma;<sub>m</sub></i> box.</li>
 <li> Remark: If both the <b> &sigma;<sub>m</sub> (S/m)</b> and <b> f<sub>cursor</sub></b> buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>	
 		</ul>	
       	</li>    
@@ -269,14 +269,15 @@ To account for surface conductance, the user can either specify :
 <details><summary class="tab"><h4 class="menutitle"> 8. Display options </h4></summary>
       <p> This section contains different buttons to adjust the properties of the graphs displayed in the Graphs section:</p>
       <ul>
-      	 <li> <b> Clear fig </b> button: Clear fig removes all curves from the Graph section</li>
+      	 <li> <b> Clear fig </b> button: Clear fig removes all curves from the Graph section.</li>
          <li> <b> X Log </b> button: If X Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
-         <li> <b>Y Log </b> button: If Y Log is pressed the x axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
-         <li> <b> Hold on </b> button:  Hold on retains plots in the current axes so that new plots added to the axes do not delete existing plots.</li>
+         <li> <b> Y Log </b> button: If Y Log is pressed the y axis will be displayed with a logarithmic scale, otherwise with a linear scale.</li>
+         <li> <b> Hold on </b> button: Hold on retains plots in the current axes so that new plots added to the axes do not delete existing plots.</li>
          <li> <b>Reset zoom</b> button: Reset zoom resets the graph to its initial zoom.</li>
          <li> <b> Legend </b> button: Legend displays the legend in the graph.</li>
       </ul>
       </details>
+  
   <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
       <ul>
         <li>File
@@ -336,13 +337,76 @@ To account for surface conductance, the user can either specify :
         </ul>
         </li>
         <li> Help </li>
-        </ul>
 
+<ul>
+        <li>File
+		<ul><li>Quit: Quit the interface.</li></ul></li>
+        <li> Database
+		<ul>
+			<li>Search: Search open a popup menu…</li>
+			<li>Import: Import a new database.</li>
+				<ul> 
+					<li> Tab-separated database </li>
+	 				<li> SQLite database </li>
+				</ul> 
+			<li>Export: Export a database.</li>
+				<ul> 
+					<li> Tab-separated database: </li>
+						<ul> 
+							<li> Full user database: </li>
+	 							<li> Initial database: </li>
+						</ul> 	
+	 				<li> SQLite database </li>
+						<ul> 
+							<li> Partial user database: </li>
+							<li> Full user database: </li>
+	 						<li> Initial database: </li>
+						</ul> 
+				</ul> 
+			<li>Download database from GitHub:</li>
+			<li>Check for database updates at startup:</li>
+		</ul></li>
+	<li> Interface
+		<ul>
+			<li>Undock windows: </li>
+			<li>Print</li>
+			<li>Export</li>
+		</ul> </li>
+	<li> Graphs
+		<ul>
+			<li>Print</li>
+			<li>Export</li>
+				<ul>
+					<li>Image</li>
+					<li>CSV</li>
+				</ul> 
+			<li>Import CSV curve</li>
+		</ul> </li>
+	<li> Tools
+		<ul>
+			<li>Mixture parameters</li>
+				<ul>
+					<li>Asami-Hanai parameters</li>
+						<ul>
+							<li> Number of increments: set the number of increments used to calculate the mixture equivalent permittivity using the Asami-Hanai formula. </li>
+						</ul>
+				</ul> 
+            		<li> Grid and labels parameters: already explained in the Graph section</li>
+           		<li> Legend parameters: already explained in the Graph section</li>
+           		<li> Check for MyDEP updates at startup</li>
+		</ul> </li>
+	<li> Help
+		<ul>
+			<li>Online ressources</li>
+			<li>About MyDEP</li>
+			<li>About MyDEP licensing</li>
+			<li>Contact</li>
+		</ul> </li>
+</ul>
 
  </details>
  </details>
-<details>
-<summary><h2 class="menutitle"> Database </h2></summary>
+<details> <summary><h2 class="menutitle"> Database </h2></summary>
 
 
 <p class="retrait">MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that were found in the literature has been created. This database is in the file database.txt. </p>
