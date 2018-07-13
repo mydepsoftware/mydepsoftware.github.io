@@ -374,14 +374,28 @@ To account for surface conductance, the user can either specify :
 			<li>Undock windows: This option allows to separate the myDEP interface in 3 parts:
 				<ul>
                 				<li>The parameters part containing the left part of the interface (Medium/Frequencies/Model).</li>
-                				<li>Graphs</li>
-                				<li>Results and Display options</li>
+                				<li>Graphs.</li>
+                				<li>Results and Display options.</li>
 				</ul>
+           		<p>Closing the Graphs or Results and Display parts will redock them all together.</p>
 			</li>
-		</ul></li>
-			<li>Print</li>
-			<li>Export</li>
-		</ul> </li>
+        			<li> Print: Print the interface using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter.</li>
+			<li> Export</li>
+           		<li> Export: Open a popupmenu for exporting the interface as displayed in the following image. The following parameters can be choosen:
+             	 		<ul>
+                				<li>	Output format: A5 to A0 or personalized by specifying the width and height.</li>
+                				<li> Resolution: 75, 150, 300 or 600 dpi.</li>
+                				<li> Orientation.</li>
+                				<li> Keep screen aspect ratio: keep the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
+                				<li> File format: pdf, jpg, bmp, gif, png, jpeg.</li>
+              			</ul>
+              			<br>
+              				<div class="DIVimage">
+                  			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
+             		 		</div>
+           			</br>
+		</ul>
+        </li>
 	<li> Graphs
 		<ul>
 			<li>Print</li>
