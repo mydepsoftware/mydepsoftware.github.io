@@ -112,14 +112,14 @@ To account for surface conductance, the user can either specify :
 <p>
 <ul>
     <li>From "Classical Model" to "Electrical Model":<br>
-    If the "Classical Model" is selected, a click on the <i> <b> Convert </b> </i> button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
+    If the "Classical Model" is selected, a click on the <b> Convert </b> button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
     $$G_{cm}=\frac{\sigma_{cm}}{th_{cm}}$$
     $$C_{cm}=\frac{\varepsilon_{cm}}{th_{cm}}$$
     A click on "Electrical Model" will use the calculated values.<br>
     </li>
     <li>
     From "Electrical Model" to "Classical Model":<br>
-    If the "Electrical Model" is selected, a click on the <i> <b> Convert </b> </i> button will make the $th_{cm}$ box accessible. Once the value is entered, press the <i> <b> OK </b> </i> button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
+    If the "Electrical Model" is selected, a click on the <b> Convert </b> button will make the $th_{cm}$ box accessible. Once the value is entered, press the <b> OK </b> button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
     A click on "Classical Model" will use the calculated values.
     </li>
 </ul>
@@ -152,13 +152,13 @@ To account for surface conductance, the user can either specify :
   </div>
 
   </details>
-  <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The <i> <b> Sweep </b> </i> button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
+  <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The <b> Sweep </b> button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
   <div class="DIVimage60">
       <img class="im" src='/assets/img/image12_SweepParameters.png' />
   </div>
 
   </details>
-  <details><summary class="tab"><h4 class="menutitle"> 5. Calculate </h4></summary> <p class="retrait"> The <i> <b> Calculate </b> </i> button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
+  <details><summary class="tab"><h4 class="menutitle"> 5. Calculate </h4></summary> <p class="retrait"> The <b> Calculate </b> button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
 	<p class="retrait">If the Sweep button is pressed, the progression of the calculation will be displayed on this button by using a progress bar.</p>
 
   </details>
@@ -206,7 +206,7 @@ To account for surface conductance, the user can either specify :
       <li> <b>Legend:</b><br>
       The legend can be moved in the graph by dragging it. The following parameters can be modified by right-clicking on the legend -> Legend parameters:
       <ul>
-      <li> Opacity of the legend: By default, the legend background is opaque but can become transparent by unclicking the <i> <b> Opaque </b> </i> button.</li>
+      <li> Opacity of the legend: By default, the legend background is opaque but can become transparent by unclicking the <b> Opaque </b> button.</li>
       <li> Anchoring (horizontal and vertical): This corresponds to the fixed point when the MyDEP interface size is modified on screen or printed. </li>
       <li> Font and font size </li>
       <li> Font color and Background color</li>
@@ -247,18 +247,18 @@ To account for surface conductance, the user can either specify :
         </li>
         <li> Complex Permittivity, Permittivity and Conductivity tabs:
           <ul>
-            <li> Particle, Medium and Mixture buttons: if pressed the corresponding curves will be displayed. </li>
-            <li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
+            <li> <b> Particle </b>, <b> Medium </b> and <b> Mixture </b>buttons: If pressed the corresponding curves will be displayed. </li>
+            <li> <b> Min Max auto </b> button: If pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0min}$ and $|\varepsilon_{eq}^{\ast}| / \varepsilon_{0max}$
 (respectively $\varepsilon_{min}$ and $\varepsilon_{max}$ and $\sigma_{min}$ and $\sigma_{max}$).</li>		  
-            <li> $f_{cursor}$: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the $At f_{cursor}$ box.</li>
+            <li> <b> f<sub>cursor</sub> </b>: a vertical line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values for the Particle, Medium and Mixture are displayed in the <i> At f<sub>cursor</sub> </i> box.</li>
             <li> All the other buttons have similar behavior as described in the CM factor tab.</li>
           </ul>
         </li>
         <li> Crossover tab: if a sweep is performed on the $\sigma_{m}$ button, the corresponding crossover frequencies will be displayed in this graph:
 		<ul>
-		<li> $Lower$ and $Upper$: if pressed the corresponding curves will be displayed. </li>
-    		<li> Min Max auto button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
-          	<li> $\sigma_{m} (S/m)$ button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
+		<li> <b> Lower </b> and <b> Upper </b>: if pressed the corresponding curves will be displayed. </li>
+    		<li> <b> Min Max auto </b> button: if pressed the Min and Max value will be adjusted automatically. Otherwise, they will be correspond to $Frequency_{min}$ and $Frequency_{max}$. </li>
+          	<li> $\sigma_{m} (S/m)$ &sigma;<sub>m</sub> button: a vertical line will be displayed at the value written in the box. The value can also be adjusted with the corresponding slider.</li>
             	<li> $f_{cursor}$: a horizontal line will be displayed at the frequency written in the box, whose unit can be adjusted (Hz, kHz, MHz or GHz). The value can also be adjusted with the corresponding slider. The values of the Lower and Upper crossover frequencies are displayed in the $At  \sigma_{m}$ box.</li>
 <li> Remark: If both the $\sigma_{m} (S/m)$ and $f_{cursor}$ buttons are pressed, a click on a point will move the two cursors together. Draging the $\sigma_{m} (S/m)$ cursor on the graph will move both cursors on the same curve.</li>	
 		</ul>	
