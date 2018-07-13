@@ -367,51 +367,6 @@ A similar principle is applied for the different media in the medium section of 
 
 
  </details>
-<details>
-<summary><h2 class="menutitle">Single shell: electrical model </h2></summary>
-
-<p>For the Single-shell model an additional feature allows to specify different properties of the cell membrane: either the "Classical Model" ($th_{cm}$, $\sigma_{cm}$ and $\varepsilon_{cm}$) or the "Electrical Model" (specific membrane conductance $G_{cm}$ and capacitance $C_{cm}$). </p>
-
-<p>
-<ul>
-    <li>From "Classical Model" to "Electrical Model":<br>
-    If the "Classical Model" is selected, a click on the "Convert" button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
-    $$G_{cm}=\frac{\sigma_{cm}}{th_{cm}}$$
-    $$C_{cm}=\frac{\varepsilon_{cm}}{th_{cm}}$$
-    A click on "Electrical Model" will use the calculated values.<br>
-    </li>
-    <li>
-    From "Electrical Model" to "Classical Model":<br>
-    If the "Electrical Model" is selected, a click on the "Convert" button will make the $th_{cm}$ box accessible. Once the value is entered, press the "ok" button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
-    A click on "Classical Model" will use the calculated values.
-    </li>
-</ul>
-</p>
-
-</details>
-<details>
-<summary><h2 class="menutitle">Specificities of the "homogeneous" particle model </h2></summary>
-
-
-<p>
-The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for depolarization factor and all the calculations.
-
-For small particles, surface charges affect significantly their dielectric response and should be taken into account, as shown by the formula:
-
-$$ \sigma_p=\sigma_{p bulk}+\frac{2K_s^i}{r}+\frac{2K_s^d}{r}$$
-
-where<br>
-$\sigma_{p bulk}$: bulk electrical conductivity of the particle <br>
-$K_s^i$: Stern layer conductance <br>
-$K_s^d$: diffuse layer conductance <br>
-
-To account for surface conductance, the user can either specify :
-<ul>
-  <li> $K_s^i$ and $K_s^d$ </li>
-  <li> $K_s^i$ and the zeta potential $\zeta$. </li>
-</ul>
-</p>
-</details>
 
 <style>
 	/*getting started css*/
