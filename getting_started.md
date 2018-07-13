@@ -35,23 +35,6 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
     <img class="im" src='/assets/img/image03_mac.png' />
 </div>
   </details>
-  
-<p> For OS X users, depending on the security preferences, the following message might be displayed: </p>
-
-<div class="DIVimage60">
-    <img class="im" src='/assets/img/image01_mac.png' />
-</div>
-<p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear:</p>
-
-<div class="DIVimage60">
-    <img class="im" src='/assets/img/image02_mac.png' />
-</div>
-
-<p> Click on "Open anyway" -> Open </p>
-
-<div class="DIVimage60">
-    <img class="im" src='/assets/img/image03_mac.png' />
-</div>
 
 <p> The "mydep.ini" file will be created containing all your preferences and the following screen will appear with the application: </p>
 
