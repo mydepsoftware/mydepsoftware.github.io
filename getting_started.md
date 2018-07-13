@@ -80,7 +80,7 @@ It should be noted that tooltips are available for most of the interface paramet
         <div class="DIVimage">
             <img class="im" src='/assets/img/image06_homogeneous.png' />
         </div><br>
-<details><summary class="tab"><h5 class="menutitle"> Specificities of the "homogeneous" particle model </h5> </summary>
+<details><summary class="tab"><h5 class="menutitle"> Specificities of the "Homogeneous Particle" model </h5> </summary>
 
 <p class="retrait"> The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Complex Permittivity, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for the depolarization factor and all the calculations.</p>
 
@@ -107,7 +107,7 @@ To account for surface conductance, the user can either specify :
             <img class="im" src='/assets/img/image07_single.png' />
         </div><br>
 
-<details><summary class="tab"><h5 class="menutitle"> Single shell: electrical model </h5> </summary>
+<details><summary class="tab"><h5 class="menutitle"> Single shell: Electrical Model </h5> </summary>
 <p class="retrait"> For the Single-shell model an additional feature allows to specify different properties of the cell membrane: either the "Classical Model" ($th_{cm}$, $\sigma_{cm}$ and $\varepsilon_{cm}$) or the "Electrical Model" (specific membrane conductance $G_{cm}$ and capacitance $C_{cm}$). </p>
 <p>
 <ul>
