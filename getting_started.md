@@ -389,11 +389,9 @@ To account for surface conductance, the user can either specify :
                 				<li> Keep screen aspect ratio: keep the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
                 				<li> File format: pdf, jpg, bmp, gif, png, jpeg.</li>
               			</ul>
-              			<br>
               				<div class="DIVimage">
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
              		 		</div>
-           			</br>
 			</li> 
 		</ul>
         </li>
