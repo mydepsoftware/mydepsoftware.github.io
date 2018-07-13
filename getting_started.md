@@ -363,7 +363,7 @@ To account for surface conductance, the user can either specify :
              		 			</div>
 				</ul> 
 			<li>Import CSV curve</li>
-				<li> MyDEP allows to import a CSV file </li>
+				<p> MyDEP allows to import a CSV file </p>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image19_ImportCSV.png' />
              		 			</div>
