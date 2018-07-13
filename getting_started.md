@@ -395,7 +395,7 @@ To account for surface conductance, the user can either specify :
 <details> <summary><h2 class="menutitle"> Database </h2></summary>
 
 
-<p class="retrait">MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that were found in the literature has been created. This database is in the file database.txt. </p>
+<p class="retrait">MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that were found in the literature has been created. This database is in the file mydep_database.db. </p>
 
 <p class="retrait">For each model all the information concerning the model can be seen by Clicking on the View references button. The popup menu that open contains:
 <ul>
@@ -413,10 +413,11 @@ To account for surface conductance, the user can either specify :
 </div>
 </p>
 
-<p class="retrait">The users can either use the model already implemented in the database or create their own. To do so, click on the "Create" button in the desired model type, specify the name of the model and any additional information. Replace the values already present in the interface by the desired ones and click on Save. The saved model will be automatically saved in the user database once the MyDEP software will be closed. The model from the user database can also be deleted by clicking on the Delete button.
+<p class="retrait">The users can either use the model already implemented in the database or create their own. To do so, click on the <b> Create </b> button in the desired model type, specify the name of the model and any additional information. Replace the values already present in the interface by the desired ones and click on the <b> Save </b> button. The saved model will be automatically saved in the user database once the MyDEP software will be closed. The model from the user database can also be deleted by clicking on the <b> Delete </b> button.</p>
 
-A similar principle is applied for the different media in the medium section of MyDEP. For each medium "name" and "Remarks" field are available through the "View" button.</p>
+<p class="retrait"> A similar principle is applied for the different media in the medium section of MyDEP. For each medium "Name" and "Remarks" field are available through the "View" button.</p>
 
+<p class="retrait"> To suggest a new element to the MyDEP admin for the database, click the menu Database -> Export -> SQLlite database -> Partial user database. Add the element from the "User database" column to the "Database to export" column. Then click on the <b> Save and submit</b> button. A popop will appear on the screen proposing to save the file as "mydep_partialuserdatabase.db". Click on the <b> Save </b> button. Your mail client will open and an draft email will be generated to the contact adress. Please add the reference of the suggested model. Do not forget to attach the "mydep_partialuserdatabase.db" file. The MyDEP admin will review your suggestion and add it to the initial database distributed to all users afterwards.
 
  </details>
 
