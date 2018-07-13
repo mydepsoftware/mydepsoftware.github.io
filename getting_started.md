@@ -15,7 +15,27 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 
 <p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer</p>
 <p> Download the latest version of MyDEP by clicking on the "Free Download" button in the page header.
-Unzip the folder (zip archive) and open it. Double-click on the mydep.jar file.</p>
+Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.</p>
+
+<details><summary class="tab"><h3 class="menutitle"> For Mac OS X users </h5> </summary>
+<p> For Mac OS X users, depending on the security preferences, the following message might be displayed: </p>
+
+<div class="DIVimage60">
+    <img class="im" src='/assets/img/image01_mac.png' />
+</div>
+<p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear:</p>
+
+<div class="DIVimage60">
+    <img class="im" src='/assets/img/image02_mac.png' />
+</div>
+
+<p> Click on "Open anyway" -> Open </p>
+
+<div class="DIVimage60">
+    <img class="im" src='/assets/img/image03_mac.png' />
+</div>
+  </details>
+  
 <p> For OS X users, depending on the security preferences, the following message might be displayed: </p>
 
 <div class="DIVimage60">
