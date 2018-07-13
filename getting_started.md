@@ -68,7 +68,7 @@ The following section describes them one by one.
 It should be noted that tooltips are available for most of the interface parameters. To access them, the user should place the mouse cursor on the desired parameter.
 
   <details><summary class="tab"><h4 class="menutitle"> 1. Medium </h4> </summary><p class="retrait"> In this section, the user can choose the dielectric properties of the medium which are $\sigma_m$, the electrical conductivity and $\varepsilon_m$, the relative permittivity.
-	An additional box allows to indicate the value of the volume fraction $\phi$. It corresponds to the fraction of the volume of the cells compared to the volume of liquid. This value is needed only for the calculation of the permittivity and conductivity of the suspension of particles with the Maxwell and Asami methods that will be described later.</p>
+	An additional box allows to indicate the value of the volume fraction $\phi$. It corresponds to the fraction of the volume of the cells compared to the volume of liquid. This value is needed only for the calculation of the permittivity and conductivity of the suspension of particles with the Maxwell-Garnett and Asami-Hanai methods that will be described later.</p>
   </details>
   <details><summary class="tab"><h4 class="menutitle"> 2. Frequencies </h4></summary> <p> In this section, the user can choose the start and stop frequencies of the graph as well as the number of points, logarithmically spaced, that will be used. </p>
 </details>
