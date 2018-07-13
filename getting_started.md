@@ -337,8 +337,6 @@ To account for surface conductance, the user can either specify :
         </ul>
         </li>
         <li> Help </li>
-
-<ul>
         <li>File
 		<ul><li>Quit: Quit the interface.</li></ul></li>
         <li> Database
