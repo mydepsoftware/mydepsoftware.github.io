@@ -79,8 +79,7 @@ It should be noted that tooltips are available for most of the interface paramet
         </div><br>
 <details><summary class="tab"><h5 class="menutitle"> Specificities of the "homogeneous" particle model </h5> </summary>
 
-<p class="retrait"> Test du fonctionnement
-The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for depolarization factor and all the calculations.
+<p class="retrait"> The "classical model" uses the electrical properties of the particles, $\sigma_p$ and $\varepsilon_p$, for the calculation of the CM factor, Permittivity, Conductivity and Crossover frequencies (see "Graphs" section). The radius of the particle is only used for the calculation of $F_{DEP}/\nabla E^2_{RMS}$ and $\Gamma_{ROT}/|E^2| $ and, for the ellipsoid, for depolarization factor and all the calculations.
 
 For small particles, surface charges affect significantly their dielectric response and should be taken into account, as shown by the formula:
 
