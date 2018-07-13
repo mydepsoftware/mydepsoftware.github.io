@@ -112,14 +112,14 @@ To account for surface conductance, the user can either specify :
 <p>
 <ul>
     <li>From "Classical Model" to "Electrical Model":<br>
-    If the "Classical Model" is selected, a click on the "Convert" button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
+    If the "Classical Model" is selected, a click on the <i> <b> Convert </b> </i> button will calculate $G_{cm}$  and $C_{cm}$ following the formula:
     $$G_{cm}=\frac{\sigma_{cm}}{th_{cm}}$$
     $$C_{cm}=\frac{\varepsilon_{cm}}{th_{cm}}$$
     A click on "Electrical Model" will use the calculated values.<br>
     </li>
     <li>
     From "Electrical Model" to "Classical Model":<br>
-    If the "Electrical Model" is selected, a click on the "Convert" button will make the $th_{cm}$ box accessible. Once the value is entered, press the "OK" button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
+    If the "Electrical Model" is selected, a click on the <i> <b> Convert </b> </i> button will make the $th_{cm}$ box accessible. Once the value is entered, press the <i> <b> OK </b> </i> button. The values of $\sigma_{m}$ and $\varepsilon_{cm}$ will be calculated.
     A click on "Classical Model" will use the calculated values.
     </li>
 </ul>
