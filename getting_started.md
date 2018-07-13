@@ -152,13 +152,13 @@ To account for surface conductance, the user can either specify :
   </div>
 
   </details>
-  <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The Sweep button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
+  <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The <i> <b> Sweep </b> </i> button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max value, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
   <div class="DIVimage60">
       <img class="im" src='/assets/img/image12_SweepParameters.png' />
   </div>
 
   </details>
-  <details><summary class="tab"><h4 class="menutitle"> 5. Calculate </h4></summary> <p class="retrait"> The Calculate button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
+  <details><summary class="tab"><h4 class="menutitle"> 5. Calculate </h4></summary> <p class="retrait"> The <i> <b> Calculate </b> </i> button performs the corresponding calculation displayed in the Graphs section. The orange color of the button indicates that no calculation has been performed. The button turns green once the calculation is done.</p>
 	<p class="retrait">If the Sweep button is pressed, the progression of the calculation will be displayed on this button by using a progress bar.</p>
 
   </details>
