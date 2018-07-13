@@ -341,32 +341,44 @@ To account for surface conductance, the user can either specify :
 		<ul><li>Quit: Quit the interface.</li></ul></li>
         <li> Database
 		<ul>
-			<li>Search: Search open a popup menu…</li>
-			<li>Import: Import a new database.</li>
+			<li>Search: Search open a popup menu where all data from the database are visible. It’s possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
+			<li>Import: Import a new database in the following formats: </li>
 				<ul> 
 					<li> Tab-separated database </li>
 	 				<li> SQLite database </li>
 				</ul> 
-			<li>Export: Export a database.</li>
+			<li>Export: Export a database in the following format</li>
 				<ul> 
-					<li> Tab-separated database: </li>
+					<li> Tab-separated database: Export at the desired location in .txt file:</li>
 						<ul> 
-							<li> Full user database: </li>
-	 							<li> Initial database: </li>
+							<li> Full user database: Contains all the models added and saved by the user</li>
+							<li> Initial database: Contains all the models provided with MyDEP</li>
 						</ul> 	
-	 				<li> SQLite database </li>
+	 				<li> SQLite database: Export at the desired location in .db file: </li>
 						<ul> 
-							<li> Partial user database: </li>
-							<li> Full user database: </li>
-	 						<li> Initial database: </li>
+							<li> Partial user database: Open a popup window where the user select the models created he wants to export. </li>
+								<ul>
+									<li> <b> Save </b> button: the database will be saved at the desired location.
+									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.
+									<li> <b> Cancel</b> button: Cancel the export.
+								</ul> 	
+							<li> Full user database: Save at the desired location the full user database</li>
+	 						<li> Initial database: Save at the desired location the initial database provided with MyDEP</li>
 						</ul> 
 				</ul> 
-			<li>Download database from GitHub:</li>
-			<li>Check for database updates at startup:</li>
+			<li>Download database from GitHub: Download the initial database from the MyDEP GitHub page.</li>
+			<li>Check for database updates at startup: Check if a new version of the initial database is available online at startup</li>
 		</ul></li>
 	<li> Interface
 		<ul>
-			<li>Undock windows: </li>
+			<li>Undock windows: This option allows to separate the myDEP interface in 3 parts:
+				<ul>
+                				<li>The parameters part containing the left part of the interface (Medium/Frequencies/Model)</li>
+                				<li>Graphs</li>
+                				<li>Results and Display options</li>
+				</ul>
+			</li>
+		</ul></li>
 			<li>Print</li>
 			<li>Export</li>
 		</ul> </li>
