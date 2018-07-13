@@ -186,7 +186,7 @@ To account for surface conductance, the user can either specify :
           <li> $\sigma_{mix}$: the equivalent electrical conductivity of the particles in suspension in the medium at the given volume fraction.</li>
         </ul>  
     </li>
-    <li>Crossover: This graph corresponds to the different crossover frequencies when the sweep mode is used.
+    <li>Crossover: this graph corresponds to the different crossover frequencies when the sweep mode is performed on $\sigma_{m}$.
     </li>
   </ul>
 
