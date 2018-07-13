@@ -17,7 +17,7 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 <p> Download the latest version of MyDEP by clicking on the "Free Download" button in the page header.
 Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.</p>
 
-<details><summary class="tab"><h3 class="menutitle"> For Mac OS X users </h5> </summary>
+<details><summary class="tab"><h3 class="menutitle"> For Mac OS X users </h3> </summary>
 <p> For Mac OS X users, depending on the security preferences, the following message might be displayed: </p>
 
 <div class="DIVimage60">
