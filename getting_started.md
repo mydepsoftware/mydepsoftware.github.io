@@ -11,7 +11,7 @@ permalink: /getting_started/
 <p class="retrait"> MyDEP is a Java based standalone software which allows to study dielectric particle response to AC electric fields and to analyse the electric properties of biological cells.
 It consists of a Graphical User Interface (GUI) supporting a literature-based database. This tool can also be used with the user's own data sets. </p>
 
-<h2 class="menutitle"> Installation and system requirements </h2>
+<summary><h2 class="menutitle"> Installation and system requirements </h2></summary>
 
 <p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer</p>
 <p> Download the latest version of MyDEP by clicking on the "Free Download" button in the page header.
