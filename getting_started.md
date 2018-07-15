@@ -4,7 +4,7 @@ title:  Getting started
 permalink: /getting_started/
 ---
 
-<h1> Getting started </h1>
+<h1> Getting started </h1> 
 <details>
 <summary><h2 class="menutitle"> Introduction</h2></summary>
 
