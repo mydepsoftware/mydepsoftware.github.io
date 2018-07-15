@@ -2,7 +2,7 @@
   url: /getting_started/
   excerpt: "A quick guide to installing and using MyDEP"
 
-- title: A bit of theory...
+- title: A bit of theory
   url: /a_bit_of_theory/
   excerpt: "Basics of dielectrophoresis and electrorotation"
 
@@ -13,3 +13,4 @@
 - title: Contacts
   url: /contacts/
   excerpt: "How to contact MyDEP authors"
+
