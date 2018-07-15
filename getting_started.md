@@ -198,6 +198,7 @@ To account for surface conductance, the user can either specify :
       <li> <b>Curve properties: </b><br>
       A left click on a displayed curve will select the curve which will appear in a thicker linestyle. The corresponding parameters used for its creation will be displayed in the left part of the interface (Medium/Frequencies/Model).<br>
       A right click on a displayed curve will cause a popup menu to appear with the following options:
+	      
       <ul>
         <li>Curve parameters: The line style of the curve and its width can be adjusted as well as its color with Swatches, HSV, HSL, RGB and CMYK color models. Each point of the curve can also be represented by a marker for which the type and size can be adjusted.</li>
         <li> Sweep curve parameters:
@@ -326,7 +327,7 @@ To account for surface conductance, the user can either specify :
 			</li>
         			<li> Print: Print the interface using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter.</li>
 			<li> Export</li>
-           		<li> Export: Open a popupmenu for exporting the interface as displayed in the following image. The following parameters can be choosen:
+           		<li> Export: Open a popup menu for exporting the interface as displayed in the following image. The following parameters can be choosen:
              	 		<ul>
                 				<li>	Output format: A5 to A0 or personalized by specifying the width and height.</li>
                 				<li> Resolution: 75, 150, 300 or 600 dpi.</li>
@@ -345,7 +346,7 @@ To account for surface conductance, the user can either specify :
             		<li> Print: Print the graph displayed on the screen using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter </li>
 			<li> Export</li>
 				<ul>
-					<li>Image: Open a popupmenu for exporting the graph displayed on the screen. The following parameters can be choosen:
+					<li>Image: Open a popup menu for exporting the graph displayed on the screen. The following parameters can be choosen:
 						<ul>
                 						<li> Output format: A5 to A0 or personalized by specifying the width and height.</li>
 	              					<li> Resolution: 75, 150, 300 or 600 dpi.</li>
