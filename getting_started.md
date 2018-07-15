@@ -15,7 +15,7 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 <details>
 <summary><h2 class="menutitle"> Installation and system requirements </h2></summary>
 
-<p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer</p>
+<p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer. </p>
 <p> Download the latest version of MyDEP by clicking on the "Free Download" button in the page header.
 Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.</p>
 
