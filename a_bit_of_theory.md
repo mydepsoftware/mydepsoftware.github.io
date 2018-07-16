@@ -145,6 +145,6 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
 <h2> References </h2>
    <ol> <li id="cite1"> Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871,  1951<a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a></li>
 
-   <ol> <li id="cite2”> Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a></li>
+ <li id="cite2”> Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a></li>
     </ol>
 
