@@ -141,6 +141,6 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
  <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
 
 <h2> References </h2>
-<p>	<ol> <li id=cite1> Article Cottet <a href=“https://aip.scitation.org/doi/10.1063/1.5001145”> https://aip.scitation.org/doi/10.1063/1.5001145 </a></li>
-	</ol>  </p>
-
+	<ol> <li id=cite1> Article Cottet <a href=“https://aip.scitation.org/doi/10.1063/1.5001145”> https://aip.scitation.org/doi/10.1063/1.5001145 </a></li>
+         <li id=cite2> Article Menad <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.1021%2Fla5005193&data=02%7C01%7C%7C4accac4ee0fe4186355b08d5ea9fdd84%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C636672894692559651&sdata=1ZLgfn62fASBpQ638cAo4XdIzc6N%2F44ahBHabRlufN8%3D&reserved=0">doi:10.1021/la5005193 </a></li>
+	</ol>
