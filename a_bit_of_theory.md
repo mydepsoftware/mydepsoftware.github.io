@@ -104,3 +104,12 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
     <figcaption class="figcap"> Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here. 
     </figcaption>
 </div>
+
+ <p class="retrait"> For a cell modelled with a "single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity \cite{Gascoyne_1995} is:
+\begin{equation}
+\label{eq:9}
+\epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
+\end{equation}
+
+The formulation of the complex permittivity for ellipsoids can be found in \cite{Kakutani_1993}.
+ </p>
