@@ -198,8 +198,7 @@ To account for surface conductance, the user can either specify :
       <li> <b>Zooming</b>:<br> You can zoom the graph using the scroll-wheel of your mouse or the zoom functionality of your trackpad. </li>
       <li> <b>Curve properties: </b><br>
       A left click on a displayed curve will select the curve which will appear in a thicker linestyle. The corresponding parameters used for its creation will be displayed in the left part of the interface (Medium/Frequencies/Model).<br>
-      A right click on a displayed curve will cause a popup menu to appear with the following options:
-	      
+      A right click on a displayed curve will cause a popup menu to appear with the following options:      
       <ul>
         <li>Curve parameters: The line style of the curve and its width can be adjusted as well as its color with Swatches, HSV, HSL, RGB and CMYK color models. Each point of the curve can also be represented by a marker for which the type and size can be adjusted.</li>
         <li> Sweep curve parameters:
