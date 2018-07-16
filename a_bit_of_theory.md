@@ -170,4 +170,10 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
    	<li id="cite9"> Hanai, T. Theory of the dielectric dispersion due to the interfacial polarization and its application to emulsions. Kolloid-Zeitschrift 171, 23-31, 1960
       	<a href="https://dx.doi.org/10.1007/bf01520320"> doi:10.1007/bf01520320</a>
 	</li>  
-</ol> 
+   	<li id="cite10"> Hanai, T., Asami, K. & Koizumi, N. Dielectric theory of concentrated suspension of shell-spheres in particular reference to the analysis of biological cell suspensions. Bulletin of the Institute for Chemical Research, Kyoto University 57, 297-305, 1979
+      	<a href="http://hdl.handle.net/2433/76842"> http://hdl.handle.net/2433/76842</a>
+	</li> 
+   	<li id="cite11"> Irimajiri, A., Suzaki, T., Asami, K. & Hanai, T. Dielectric modeling of biological cells. Models and algorithm. Bull. Inst. Chem. Res., Kyoto University 69, 421-438, 1991
+      	<a href="http://hdl.handle.net/2433/77400"> http://hdl.handle.net/2433/77400</a>
+	</li>
+</ol>  
