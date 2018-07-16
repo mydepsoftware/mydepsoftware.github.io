@@ -302,7 +302,7 @@ To account for surface conductance, the user can either specify :
 						</ul> 	
 	 				<li> SQLite database: This exports at the desired location in .db file: </li>
 						<ul> 
-							<li> Partial user database: This opens a popup window where the user can select the created models he wants to export.</li>
+							<li> Partial user database: This opens a popup window where the user can select the created models he wants to export.
 								<ul>
 									<li> <b> Save </b> button: This saves the database at the desired location.</li>
 									<li> <b> Save and submit </b> button: The database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper(s) to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
