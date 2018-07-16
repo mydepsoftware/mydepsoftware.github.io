@@ -94,3 +94,13 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 <h3> Travelling-wave dielectrophoresis (twDEP) </h3>
 
 <p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ </p>
+
+<h3> Cell modelling </h3>
+
+<p class="retrait"> Most particles, and especially biological cells, are not homogeneous. It is therefore mandatory to model the different layers that constitute them (cell membrane and cytoplasm in particular). Calculating the Clausius-Mossotti factor requires to successively calculate the equivalent permittivities of the inner layers to obtain an homogeneous equivalent particle. The different models implemented in MyDEP are: "Homogeneous particle", "Single-shell", "Two-shell", "Three-shell" and "Four-shell" and are presented in Fig.  </p>
+
+<div class="DIVimage">
+      <img class="im" src='/assets/img/image11_CellModel.png' />
+    <figcaption class="figcap"> Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here. 
+    </figcaption>
+</div>
