@@ -6,11 +6,14 @@
   url: /a_bit_of_theory/
   excerpt: "Basics of dielectrophoresis and electrorotation"
 
-- title: How to cite
+- title: Citing MyDEP
   url: /how_to_cite/
-  excerpt: "Citing MyDEP"
+  excerpt: "How to cite"
 
 - title: Contacts
   url: /contacts/
   excerpt: "How to contact MyDEP authors"
 
+- title: Acknowledgments
+  url: /acknowledgments/
+  excerpt: "Our sponsors"
