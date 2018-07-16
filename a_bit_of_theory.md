@@ -141,6 +141,7 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
 \end{equation}
 
  <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
+
 <h2> References </h2>
 <ol> 
 	<li id="cite1"> Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871, 1951
@@ -163,4 +164,10 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
    	<li id="cite7"> Kakutani, T., Shibatani, S. & Sugai, M. Electrorotation of non-spherical cells: Theory for ellipsoidal cells with an arbitrary number of shells. Bioelectrochemistry and Bioenergetics 31, 131-145, 1993
       	<a href="https://dx.doi.org/10.1016/0302-4598(93)80002-c"> doi:10.1016/0302-4598(93)80002-c</a>
 	</li>   
+   	<li id="cite8"> Sihvola, A. H. & Kong, J. A. Effective permittivity of dielectric mixtures. IEEE Transactions on Geoscience and Remote Sensing 26, 420-429, 1988
+      	<a href="https://dx.doi.org/10.1109/36.3045"> doi:10.1109/36.3045</a>
+	</li>   
+   	<li id="cite9"> Hanai, T. Theory of the dielectric dispersion due to the interfacial polarization and its application to emulsions. Kolloid-Zeitschrift 171, 23-31, 1960
+      	<a href="https://dx.doi.org/10.1007/bf01520320"> doi:10.1007/bf01520320</a>
+	</li>  
 </ol> 
