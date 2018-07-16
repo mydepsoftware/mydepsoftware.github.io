@@ -95,7 +95,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 <h3> Travelling-wave dielectrophoresis (twDEP) </h3>
 
-<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ <sup><a href="#cite5” style="text-decoration:none"> 5 </a></sup>. </p>
+<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ <sup><a href="#cite5" style="text-decoration:none"> 5 </a></sup>. </p>
 
 <h3> Cell modelling </h3>
 
@@ -107,13 +107,13 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
     </figcaption>
 </div>
 
- <p class="retrait"> For a cell modelled with a "Single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity <sup><a href="cite6” style="text-decoration:none"> 6 </a></sup> is:
+ <p class="retrait"> For a cell modelled with a "Single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity <sup><a href="#cite6" style="text-decoration:none"> 6 </a></sup> is:
 \begin{equation}
     \tag{9}
 \epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
 \end{equation}
 
-The formulation of the complex permittivity for ellipsoids can be found in <sup><a href="cite7” style="text-decoration:none"> 7 </a></sup>.
+The formulation of the complex permittivity for ellipsoids can be found in <sup><a href="#cite7" style="text-decoration:none"> 7 </a></sup>.
  </p>
  
  <h3> Cell suspension </h3>
@@ -126,21 +126,21 @@ The formulation of the complex permittivity for ellipsoids can be found in <sup>
 \frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
 \end{equation}
 
-which is equivalent, according to <sup><a href="cite8” style="text-decoration:none"> 8 </a></sup> , to the direct formulation:
+which is equivalent, according to <sup><a href="#cite8" style="text-decoration:none"> 8 </a></sup>, to the direct formulation:
 
 \begin{equation}
     \tag{11}
 \epsilon_{mix}^{\ast}=\epsilon_{m}^{\ast} \left(1+3 \phi \frac{\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}{1-\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}\right) 
 \end{equation}
 
-or by the Asami-Hainaï equation <sup><a href="cite9” style="text-decoration:none"> 9 </a></sup>, theoretically up to $\phi < 0.9$:
+or by the Asami-Hainaï equation <sup><a href="#cite9" style="text-decoration:none"> 9 </a></sup>, theoretically up to $\phi < 0.9$:
 
 \begin{equation}
     \tag{12}
 \left(\frac{\epsilon_{mix}^{\ast}-\epsilon_{p}^{\ast}}{\epsilon_{m}^{\ast}-\epsilon_{p}^{\ast}}\right)\left(\frac{\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}}\right)^{1/3}=1-\phi
 \end{equation}
 
- <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in <sup><a href="cite10” style="text-decoration:none"> 10 </a><a href="cite11” style="text-decoration:none"> 11 </a></sup>. </p>
+ <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in <sup><a href="#cite10" style="text-decoration:none"> 10 </a></sup> <sup><a href="#cite11" style="text-decoration:none"> 11 </a></sup>. </p>
 
 <h2> References </h2>
 <ol> 
