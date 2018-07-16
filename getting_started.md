@@ -149,7 +149,7 @@ To account for surface conductance, the user can either specify :
       </li>
   </ul>  
 
-  <p>Here is a summarized description of the implemented cell models (the four-shell model is not represented here):</p>
+  <p>Here is a summarized description of the implemented cell models (the four-shell model is not represented):</p>
   <div>
       <img class="im" src='/assets/img/image11_CellModel.png' />
   </div>
