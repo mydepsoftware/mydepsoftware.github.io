@@ -287,7 +287,7 @@ To account for surface conductance, the user can either specify :
 		<ul><li>Quit: This quits closes the interface.</li></ul></li>
         <li> Database
 		<ul>
-			<li>Search: This opens a popup where all data from the database are visible. It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
+			<li>Search: This opens a popup where all data from the database are visible. This menu is accessible with a keyboard shortcut: Ctrl + F (Windows) or Cmd + F (Mac).It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface. </li>
 			<li>Import: This imports a new database in the following formats: </li>
 				<ul> 
 					<li> Tab-separated database </li>
