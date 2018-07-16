@@ -5,7 +5,7 @@ permalink: /how_to_cite/
 ---
 
 
-<p> A paper related to the software has been submitted to the Biophysical Journal in the Computational Tools category. 
+<p> A paper related to the software is in preparation for the Biophysical Journal (Computational Tools category). 
 To cite the paper, please use:</p>
 <p> Cottet, J., Fabregue, O., Buret, F., Renaud, P. & Frénéa-Robin, M. MyDEP: a new computational tool for dielectric modelling of particles and cells and simulation of their dielectrophoretic response spectra. Biophysical Journal (2018 (Paper in preparation))</p>
 
