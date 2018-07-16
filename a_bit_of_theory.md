@@ -113,3 +113,29 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 The formulation of the complex permittivity for ellipsoids can be found in \cite{Kakutani_1993}.
  </p>
+ 
+ <h3> Cell suspension </h3>
+
+ <p class="retrait"> In the presence of particles, the effective permittivity of the suspension $\epsilon_{mix}^{\ast}$ depends on the volume fraction $\phi$ occupied by the particles. It is given by the Maxwell-Garnett mixing equation if the volume fraction $\phi < 0.1$  </p>
+
+
+\begin{equation}
+    \tag{10}
+\frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
+\end{equation}
+
+which is equivalent, according to \cite{Sihvola_1988}, to the direct formulation
+
+\begin{equation}
+    \tag{11}
+\epsilon_{mix}^{\ast}=\epsilon_{m}^{\ast} \left(1+3 \phi \frac{\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}{1-\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}\right) 
+\end{equation}
+
+or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 0.9$
+
+\begin{equation}
+    \tag{12}
+\left(\frac{\epsilon_{mix}^{\ast}-\epsilon_{p}^{\ast}}{\epsilon_{m}^{\ast}-\epsilon_{p}^{\ast}}\right)\left(\frac{\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}}\right)^{1/3}=1-\phi
+\end{equation}
+
+ <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
