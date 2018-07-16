@@ -143,8 +143,13 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
  <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
 
 <h2> References </h2>
-    <ol> 
-        <li id="cite1"> Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871,  1951<a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a></li>
-        <li id="cite2”> Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a></li>
-    </ol>
-
+   <ol> 
+     <li id="cite1"> 
+       Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871,  1951
+       <a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a>
+     </li>
+    <li id="cite2"> 
+        Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, 2017
+       <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a>
+     </li>
+        </ol> 
