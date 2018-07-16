@@ -143,5 +143,5 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
 <h2> References </h2>
    <ol> <li id=cite1> Article Cottet <a href="https://dx.doi.org/10.1063/1.5001145"> doi:10.1063/1.5001145 </a></li>
          <li id=cite2> Article Menad <a href="https://dx.doi.org/10.1021/la5005193"> doi:10.1021/la5005193 </a></li>
-    <ol>
+    </ol>
 
