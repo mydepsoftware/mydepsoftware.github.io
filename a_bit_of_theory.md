@@ -8,7 +8,7 @@ permalink: /a_bit_of_theory/
 <h2> Dielectrophoresis principle </h2>
 
 <p class="retrait">
-The term "dielectrophoresis" was first introduced by Pohl in 1951<sup><a href="#cite1" style="text-decoration:none"> 1 </a></sup>  to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
+The term "dielectrophoresis" was first introduced by Pohl in 1951 <sup><a href="#cite1" style="text-decoration:none"> 1 </a></sup>  to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
 <p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect)<sup><a href="#cite2" style="text-decoration:none"> 2 </a></sup>.
 </p>
 
@@ -46,7 +46,7 @@ $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permi
 
 where $\varepsilon_{i}$ is the relative permittivity, $\varepsilon_{0}$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
-<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force:
+<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force <sup><a href="#cite3” style="text-decoration:none"> 3 </a></sup> :
 $$\begin{equation} 
     \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} 
     \tag{5}\label{FDEP_full}
@@ -54,7 +54,7 @@ $$\begin{equation}
 
 <h3> Conventional dielectrophoresis </h3>
 
-<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEP_full} simplifies to <sup><a href="cite3” style="text-decoration:none"> 3 </a></sup> :
+<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEP_full} simplifies to:
 $$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 Re[CM(f)]\mathbf \nabla E_{RMS}^2 
     \tag{6}
 \label{FcDEP}$$
@@ -74,7 +74,7 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
 
 
 <h3> Electrorotation </h3>
-<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann <sup><a href="cite4” style="text-decoration:none"> 4 </a></sup> , who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
+<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann <sup><a href="#cite4” style="text-decoration:none"> 4 </a></sup> , who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
 
 <p> When a polarizable particle is suspended in a rotating electric field, a dipole forms and should rotate synchronously with the field. In practice, when the angular frequency of the field is sufficiently high, the dipolar relaxation time is too long to allow this synchronism. The temporal shift (or phase delay) resulting between the dipole and the field results in a torque exerted on the particle, of expression:
     $$\langle\mathbf{\Gamma_{EL}}\rangle=\mathbf{m}\times\mathbf{E}=-4\pi r_{ext}^{3}\varepsilon_{m}\varepsilon_{0}Im[CM(f)]E^{2}\mathbf{e_z}     
@@ -95,7 +95,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 <h3> Travelling-wave dielectrophoresis (twDEP) </h3>
 
-<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ <sup><a href="cite5” style="text-decoration:none"> 5 </a></sup>. </p>
+<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ <sup><a href="#cite5” style="text-decoration:none"> 5 </a></sup>. </p>
 
 <h3> Cell modelling </h3>
 
