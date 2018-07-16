@@ -140,7 +140,7 @@ or by the Asami-Hainaï equation <sup><a href="#cite9" style="text-decoration:no
 \left(\frac{\epsilon_{mix}^{\ast}-\epsilon_{p}^{\ast}}{\epsilon_{m}^{\ast}-\epsilon_{p}^{\ast}}\right)\left(\frac{\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}}\right)^{1/3}=1-\phi
 \end{equation}
 
- <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in <sup><a href="#cite10" style="text-decoration:none"> 10 </a></sup> <sup><a href="#cite11" style="text-decoration:none"> 11 </a></sup>. </p>
+ <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in <sup><a href="#cite10" style="text-decoration:none"> 10 </a>,<a href="#cite11" style="text-decoration:none"> 11 </a></sup>. </p>
 
 <h2> References </h2>
 <ol> 
