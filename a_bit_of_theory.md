@@ -54,7 +54,7 @@ $$\begin{equation}
 
 <h3> Conventional dielectrophoresis </h3>
 
-<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEP_full} simplifies to :
+<p class="retrait">When a stationary field is applied, the expression of the time-averaged DEP force \eqref{FDEP_full} simplifies to <sup><a href="cite3” style="text-decoration:none"> 3 </a></sup> :
 $$\mathbf{F_{cDEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 Re[CM(f)]\mathbf \nabla E_{RMS}^2 
     \tag{6}
 \label{FcDEP}$$
