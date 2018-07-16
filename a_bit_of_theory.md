@@ -143,13 +143,22 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
  <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
 
 <h2> References </h2>
-   <ol> 
-     <li id="cite1"> 
-       Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871,  1951
-       <a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a>
+<ol> 
+	<li id="cite1"> Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871, 1951
+      	<a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a></li>
+  	<li id="cite2"> Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, 2017
+      	<a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a>
      </li>
-    <li id="cite2"> 
-        Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, 2017
-       <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a>
-     </li>
-        </ol> 
+  
+  	<li id="cite3"> Arnold, W. M. & Zimmermann, U. Electro-Rotation - Development of a Technique for Dielectric Measurements on Individual Cells and Particles. Journal of Electrostatics 21, 151-191, 1988
+      	<a href="https://dx.doi.org/10.1016/0304-3886(88)90027-7"> doi:10.1016/0304-3886(88)90027-7</a>
+     </li>  
+  
+   	<li id="cite4"> Jones, T. B. Basic theory of dielectrophoresis and electrorotation. Ieee Engineering in Medicine and Biology Magazine 22, 33-42, 2003
+      	<a href="https://dx.doi.org/10.1109/memb.2003.1304999"> doi:10.1109/memb.2003.1304999</a>
+	</li>   
+  
+   	<li id="cite5"> Gascoyne, P. R. C., Becker, F. F. & Wang, X. B. Numerical-Analysis of the Influence of Experimental Conditions on the Accuracy of Dielectric Parameters Derived from Electrorotation Measurements. Bioelectrochemistry and Bioenergetics 36, 115-125, 1995
+      	<a href="https://dx.doi.org/doi:10.1016/0302-4598(94)05015-M"> doi:10.1016/0302-4598(94)05015-M</a>
+	</li>   
+</ol> 
