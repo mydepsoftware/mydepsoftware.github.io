@@ -8,15 +8,10 @@ permalink: /a_bit_of_theory/
 <h2> Dielectrophoresis principle </h2>
 
 <p class="retrait">
-The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe the motion of dielectric particles due to interaction with a non uniform electric field. COTTET <sup><a href="cite1" style="text-decoration:none"> 1 </a></sup> <p> </p>
+The term "dielectrophoresis" was first introduced by Pohl in 1951 <sup><a href="cite1" style="text-decoration:none"> 1 </a></sup>  to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
 <p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect).
 </p>
 
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
     
     
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} 
@@ -148,7 +143,8 @@ or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 
  <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in \cite{suspensions} \cite{retirement}. </p>
 
 <h2> References </h2>
-   <ol> <li id="cite1"> Article Cottet <a href="https://dx.doi.org/10.1063/1.5001145"> doi:10.1063/1.5001145 </a></li>
-         <li id="cite2"> Article Menad <a href="https://dx.doi.org/10.1021/la5005193"> doi:10.1021/la5005193 </a></li>
+   <ol> <li id="cite1"> Pohl, H. A. The Motion and Precipitation of Suspensoids in Divergent Electric Fields. Journal of Applied Physics 22, 869-871,  1951<a href="https://dx.doi.org/10.1063/1.1700065"> doi:10.1063/1.1700065</a></li>
+
+   <ol> <li id="cite2”> Pethig, R. R. Dielectrophoresis: Theory, methodology and biological applications. John Wiley & Sons, <a href="https://dx.doi.org/10.1002/9781118671443"> doi:10.1002/9781118671443</a></li>
     </ol>
 
