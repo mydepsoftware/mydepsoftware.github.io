@@ -357,8 +357,8 @@ To account for surface conductance, the user can either specify :
 					</li>
 					<li>CSV: This exports the selected parameters
 						<ul> 
-							<li> Crossover frequencies: frequencies and conductivities of each crossover frequencies points displayed in the Crossover tab </li>
-							<li> Other: CM factor (Real and Imaginary parts), Complexe Permittivity, Permittivity and Conductivity for the particle, the medium and the suspension displayed in the related tabs. The legend can be displayed in the first line of the CSV file if selected.</li>
+							<li> Crossover frequencies: Frequencies and conductivities of each crossover frequencies points displayed in the Crossover tab </li>
+							<li> Other: CM factor (Real and Imaginary parts), Complex Permittivity, Permittivity and Conductivity for the particle, the medium and the suspension displayed in the related tabs. The legend can be displayed in the first line of the CSV file if selected.</li>
               					</ul>
 					</li>
               					<div class="DIVimage">
@@ -377,19 +377,19 @@ To account for surface conductance, the user can either specify :
 				<ul>
 					<li>Asami-Hanai parameters</li>
 						<ul>
-							<li> Number of increments: set the number of increments used to calculate the mixture equivalent permittivity using the Asami-Hanai formula. </li>
+							<li> Number of increments: This sets the number of increments used to calculate the mixture equivalent permittivity using the Asami-Hanai formula. </li>
 						</ul>
 				</ul> 
-            		<li> Grid and labels parameters: already explained in the Graph section.</li>
-           		<li> Legend parameters: already explained in the Graph section.</li>
-           		<li> Check for MyDEP updates at startup: Check if a new version of MyDEP is available online at startup.</li>
+            		<li> Grid and labels parameters: Already explained in the Graph section.</li>
+           		<li> Legend parameters: Already explained in the Graph section.</li>
+           		<li> Check for MyDEP updates at startup: This checks if a new version of MyDEP is available online at startup.</li>
 		</ul> </li>
 	<li> Help
 		<ul>
-			<li>Online ressources: Brings the user to the MyDEP GitHub page.</li>
-			<li>About MyDEP: Opens a popup where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
-			<li>About MyDEP licensing: Opens a popup where the MyDEP licence is displayed.</li>
-			<li>Contact: Opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
+			<li>Online ressources: This brings the user to the MyDEP GitHub page.</li>
+			<li>About MyDEP: This opens a popup where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
+			<li>About MyDEP licensing: This opens a popup where the MyDEP licence is displayed.</li>
+			<li>Contact: This opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
 		</ul> </li>
 </ul>
 
@@ -400,7 +400,7 @@ To account for surface conductance, the user can either specify :
 
 <p class="retrait"> MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that was found in the literature has been created. This database is in the file mydep_database.db. </p>
 
-<p class="retrait">For each model all the information concerning the model can be seen by Clicking on the View references button. The popup menu that open contains:
+<p class="retrait">For each model all the information concerning the model can be seen by clicking on the View references button. A popup menu will open containing the following fields:
 <ul>
     <li> The Name of the model</li>
     <li> The Author </li>
@@ -418,7 +418,7 @@ To account for surface conductance, the user can either specify :
 
 <p class="retrait">The users can either use the model already implemented in the database or create their own. To do so, click on the <b> Create </b> button in the desired model type, specify the name of the model and any additional information. Replace the values already present in the interface by the desired ones and click on the <b> Save </b> button. The saved model will be automatically saved in the user database once the MyDEP software will be closed. The model from the user database can also be deleted by clicking on the <b> Delete </b> button.</p>
 
-<p class="retrait"> A similar principle is applied for the different media in the medium section of MyDEP. For each medium "Name" and "Remarks" field are available through the "View" button.</p>
+<p class="retrait"> A similar principle is applied for the different media in the medium section of MyDEP. For each medium "Name" and "Remarks" fields are available through the "View" button.</p>
 
 <p class="retrait"> To suggest a new element to the MyDEP admin for the database, click the menu Database -> Export -> SQLlite database -> Partial user database. Add the element from the "User database" column to the "Database to export" column. Then click on the <b> Save and submit</b> button. A popop will appear on the screen proposing to save the file as "mydep_partialuserdatabase.db". Click on the <b> Save </b> button. Your mail client will open and a draft email will be generated to the contact adress. Please add the reference of the suggested model. Do not forget to attach the "mydep_partialuserdatabase.db" file. The MyDEP admin will review your suggestion and add it to the initial database distributed to all users afterwards.</p>
 
