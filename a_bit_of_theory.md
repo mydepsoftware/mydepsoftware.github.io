@@ -74,7 +74,7 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
 
 
 <h3> Electrorotation </h3>
-<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann <sup><a href="#cite4” style="text-decoration:none"> 4 </a></sup> , who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
+<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann <sup><a href="#cite4" style="text-decoration:none"> 4 </a></sup>, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
 
 <p> When a polarizable particle is suspended in a rotating electric field, a dipole forms and should rotate synchronously with the field. In practice, when the angular frequency of the field is sufficiently high, the dipolar relaxation time is too long to allow this synchronism. The temporal shift (or phase delay) resulting between the dipole and the field results in a torque exerted on the particle, of expression:
     $$\langle\mathbf{\Gamma_{EL}}\rangle=\mathbf{m}\times\mathbf{E}=-4\pi r_{ext}^{3}\varepsilon_{m}\varepsilon_{0}Im[CM(f)]E^{2}\mathbf{e_z}     
