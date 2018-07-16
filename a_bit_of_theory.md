@@ -124,14 +124,14 @@ The formulation of the complex permittivity for ellipsoids can be found in COTTE
 \frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
 \end{equation}
 
-which is equivalent, according to \cite{Sihvola_1988}, to the direct formulation
+which is equivalent, according to \cite{Sihvola_1988}, to the direct formulation:
 
 \begin{equation}
     \tag{11}
 \epsilon_{mix}^{\ast}=\epsilon_{m}^{\ast} \left(1+3 \phi \frac{\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}{1-\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}\right) 
 \end{equation}
 
-or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 0.9$
+or by the Asami-Hainaï equation \cite{Hanai_1960}, theoretically up to $\phi < 0.9$:
 
 \begin{equation}
     \tag{12}
