@@ -284,36 +284,36 @@ To account for surface conductance, the user can either specify :
   <details><summary class="tab"><h4 class="menutitle"> 9. Menu bar </h4></summary> <p>The menu bar contains different categories:</p>
 <ul>
         <li>File
-		<ul><li>Quit: Quit the interface.</li></ul></li>
+		<ul><li>Quit: This quits closes the interface.</li></ul></li>
         <li> Database
 		<ul>
-			<li>Search: Search open a popup menu where all data from the database are visible. It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
-			<li>Import: Import a new database in the following formats: </li>
+			<li>Search: This opens a popup where all data from the database are visible. It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface.</li>
+			<li>Import: This imports a new database in the following formats: </li>
 				<ul> 
 					<li> Tab-separated database </li>
 	 				<li> SQLite database </li>
 				</ul> 
-			<li>Export: Export a database in the following format</li>
+			<li>Export: This exports a database in the following format</li>
 				<ul> 
-					<li> Tab-separated database: Export at the desired location in .txt file:</li>
+					<li> Tab-separated database: This exports at the desired location in .txt file:</li>
 						<ul> 
 							<li> Full user database: Contains all the models added and saved by the user</li>
 							<li> Initial database: Contains all the models provided with MyDEP</li>
 						</ul> 	
-	 				<li> SQLite database: Export at the desired location in .db file: </li>
+	 				<li> SQLite database: This exports at the desired location in .db file: </li>
 						<ul> 
-							<li> Partial user database: Open a popup window where the user select the models created he wants to export. 
+							<li> Partial user database: Opens a popup window where the user select the models created he wants to export. 
 								<ul>
-									<li> <b> Save </b> button: the database will be saved at the desired location.</li>
-									<li> <b> Save and submit </b> button: the database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
+									<li> <b> Save </b> button: This save the database at the desired location.</li>
+									<li> <b> Save and submit </b> button: The database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper(s) to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
 									<li> <b> Cancel</b> button: Cancel the export.</li>
 								</ul> </li>	
-							<li> Full user database: Save at the desired location the full user database.</li>
-	 						<li> Initial database: Save at the desired location the initial database provided with MyDEP.</li>
+							<li> Full user database: This saves the full user database at the desired location.</li>
+	 						<li> Initial database: This saves the the initial database provided with MyDEP at the desired location.</li>
 						</ul> 
 				</ul> 
-			<li>Download database from GitHub: Download the initial database from the MyDEP GitHub page.</li>
-			<li>Check for database updates at startup: Check if a new version of the initial database is available online at startup.</li>
+			<li>Download database from GitHub: This downloads the initial database from the MyDEP GitHub page.</li>
+			<li>Check for database updates at startup: This checks if a new version of the initial database is available online at startup.</li>
 		</ul></li>
 	<li> Interface
 		<ul>
@@ -327,12 +327,12 @@ To account for surface conductance, the user can either specify :
 			</li>
         			<li> Print: Print the interface using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter.</li>
 			<li> Export</li>
-           		<li> Export: Open a popup menu for exporting the interface as displayed in the following image. The following parameters can be choosen:
+           		<li> Export: This opens a popup menu for exporting the interface as displayed in the following image. The following parameters can be chosen:
              	 		<ul>
-                				<li>	Output format: A5 to A0 or personalized by specifying the width and height.</li>
+                				<li> Output format: A5 to A0 or personalized by specifying the width and height.</li>
                 				<li> Resolution: 75, 150, 300 or 600 dpi.</li>
                 				<li> Orientation.</li>
-                				<li> Keep screen aspect ratio: keep the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
+                				<li> Keep screen aspect ratio: This keeps the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
                 				<li> File format: pdf, jpg, bmp, gif, png, jpeg.</li>
               			</ul>
               				<div class="DIVimage">
@@ -343,19 +343,19 @@ To account for surface conductance, the user can either specify :
         </li>
 	<li> Graphs
 		<ul>
-            		<li> Print: Print the graph displayed on the screen using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter </li>
+            		<li> Print: This prints the graph displayed on the screen using the printer. From this menu a pdf can be generated directly (on macOS) or by using a pdfPrinter </li>
 			<li> Export</li>
 				<ul>
-					<li>Image: Open a popup menu for exporting the graph displayed on the screen. The following parameters can be choosen:
+					<li>Image: This opens a popup menu for exporting the graph displayed on the screen. The following parameters can be chosen:
 						<ul>
-                						<li> Output format: A5 to A0 or personalized by specifying the width and height.</li>
+                					<li> Output format: A5 to A0 or personalized by specifying the width and height.</li>
 	              					<li> Resolution: 75, 150, 300 or 600 dpi.</li>
-                						<li> Orientation. </li>
-               		 				<li> Keep screen aspect ratio: keep the same aspect ration as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
+                					<li> Orientation. </li>
+               		 				<li> Keep screen aspect ratio: This keeps the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
                 						<li> File format: pdf, jpg, bmp, gif, png, jpeg. </li>
               					</ul>
 					</li>
-					<li>CSV: Export the selected parameters can 
+					<li>CSV: This exports the selected parameters
 						<ul> 
 							<li> Crossover frequencies: frequencies and conductivities of each crossover frequencies points displayed in the Crossover tab </li>
 							<li> Other: CM factor (Real and Imaginary parts), Complexe Permittivity, Permittivity and Conductivity for the particle, the medium and the suspension displayed in the related tabs. The legend can be displayed in the first line of the CSV file if selected.</li>
