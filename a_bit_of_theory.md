@@ -12,6 +12,13 @@ The term "dielectrophoresis" was first introduced by Pohl in 1951 to describe th
 <p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect).
 </p>
 
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+    
+    
 <p> The force resulting from the interaction between the induced dipole moment $\mathbf{m}$ and the field gradient is expressed by: $$\begin{equation} 
     \mathbf{F_{DEP}}=-\mathbf \nabla U_{El}=(\mathbf m.\mathbf \nabla)\mathbf E 
     \tag{1}
