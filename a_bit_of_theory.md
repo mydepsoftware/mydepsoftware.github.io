@@ -46,7 +46,7 @@ $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permi
 
 where $\varepsilon_{i}$ is the relative permittivity, $\varepsilon_{0}$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
-<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force <sup><a href="#cite2" style="text-decoration:none"> 2 </a></sup>:
+<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force <sup><a href="#cite3" style="text-decoration:none"> 3 </a></sup>:
 $$\begin{equation} 
     \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} 
     \tag{5}\label{FDEP_full}
