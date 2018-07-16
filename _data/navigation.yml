@@ -10,10 +10,10 @@
   url: /how_to_cite/
   excerpt: "How to cite"
 
-- title: Contacts
-  url: /contacts/
-  excerpt: "How to contact MyDEP authors"
-
 - title: Acknowledgments
   url: /acknowledgments/
   excerpt: "Our sponsors"
+  
+- title: Contacts
+  url: /contacts/
+  excerpt: "How to contact MyDEP authors"
