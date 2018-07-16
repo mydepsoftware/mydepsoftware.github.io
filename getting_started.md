@@ -297,19 +297,19 @@ To account for surface conductance, the user can either specify :
 				<ul> 
 					<li> Tab-separated database: This exports at the desired location in .txt file:</li>
 						<ul> 
-							<li> Full user database: Contains all the models added and saved by the user</li>
-							<li> Initial database: Contains all the models provided with MyDEP</li>
+							<li> Full user database: This saves the full user database at the desired location.</li>
+							<li> Initial database: This saves the initial database provided with MyDEP at the desired location.</li>
 						</ul> 	
 	 				<li> SQLite database: This exports at the desired location in .db file: </li>
 						<ul> 
-							<li> Partial user database: Opens a popup window where the user select the models created he wants to export. 
+							<li> Partial user database: This opens a popup window where the user can select the created models he wants to export.</li>
 								<ul>
-									<li> <b> Save </b> button: This save the database at the desired location.</li>
+									<li> <b> Save </b> button: This saves the database at the desired location.</li>
 									<li> <b> Save and submit </b> button: The database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper(s) to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
-									<li> <b> Cancel</b> button: Cancel the export.</li>
+									<li> <b> Cancel</b> button: This cancels the export.</li>
 								</ul> </li>	
 							<li> Full user database: This saves the full user database at the desired location.</li>
-	 						<li> Initial database: This saves the the initial database provided with MyDEP at the desired location.</li>
+	 						<li> Initial database: This saves the initial database provided with MyDEP at the desired location.</li>
 						</ul> 
 				</ul> 
 			<li>Download database from GitHub: This downloads the initial database from the MyDEP GitHub page.</li>
