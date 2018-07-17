@@ -256,7 +256,7 @@ To account for surface conductance, the user can either specify :
       </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image14_GridProperties.png' />
-		<figcaption class="figcap">Fig.14
+		<figcaption class="figcap">Fig.14 Popup menu corresponding to the Label and Grid properties. The label displayed for the x and y axes can be defined as well as the Font and Font size for the Label and the Units. All the parameters of the grid can be selected.
     		</figcaption>
       </div>
       <br>
@@ -367,7 +367,7 @@ To account for surface conductance, the user can either specify :
               				<div class="DIVimage">
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
 					<figcaption class="figcap">Fig.15 
-    					</figcaption>
+    					</figcaption> Popup Menu for the export of MyDEP interface. The 
              		 		</div>
 			</li> 
 		</ul>
