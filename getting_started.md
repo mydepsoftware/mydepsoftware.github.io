@@ -85,7 +85,7 @@ It should be noted that tooltips are available for most of the interface paramet
 </details>
   <details><summary class="tab"><h4 class="menutitle"> 2. Frequencies </h4></summary> <p> In this section, the user can choose the start and stop frequencies of the graph as well as the number of points, logarithmically spaced, that will be used. </p>
 </details>
-  <details><summary class="tab"><h4 class="menutitle"> 3. Model </h4></summary> <p> In this section, the user can choose the particle model that will be implemented. Dielectric particles such as cells are usually represented as concentric shells. For more info see <a href="/a_bit_of_theory/#Cell_Modelling">Cell modelling</a>. Here the user can specify the number of layers that will be used. Moreover, the particle shape can be either spherical or ellipsoidal. The possible models are: </p>
+  <details><summary class="tab"><h4 class="menutitle"> 3. Model </h4></summary> <p> In this section, the user can choose the particle model that will be implemented. Dielectric particles such as cells are usually represented as concentric shells. For more info see <a href="/a_bit_of_theory/#Cell_modelling">Cell modelling</a>. Here the user can specify the number of layers that will be used. Moreover, the particle shape can be either spherical or ellipsoidal. The possible models are: </p>
 
   <ul>
       <li> <b>Homogeneous particle:</b> This model corresponds to a completely homogeneous particle. The corresponding interface is displayed in Fig.6.
