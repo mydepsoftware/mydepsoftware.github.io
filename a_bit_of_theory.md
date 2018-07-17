@@ -115,8 +115,8 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 The formulation of the complex permittivity for ellipsoids can be found in <sup><a href="#cite7" style="text-decoration:none"> 7 </a></sup>.
  </p>
- 
- <h3> Cell suspension </h3>
+
+ <h3><p id="Cell_suspension"> Cell suspension </p> </h3>
 
  <p class="retrait"> In the presence of particles, the effective permittivity of the suspension $\epsilon_{mix}^{\ast}$ depends on the volume fraction $\phi$ occupied by the particles. It is given by the Maxwell-Garnett mixing equation if the volume fraction $\phi < 0.1$  </p>
 
