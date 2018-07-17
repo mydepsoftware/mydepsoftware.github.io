@@ -288,7 +288,7 @@ To account for surface conductance, the user can either specify :
 		<ul><li>Quit: This quits closes the interface.</li></ul></li>
         <li> Database
 		<ul>
-			<li> Search\tag{Search}: This opens a popup where all data from the database are visible. This menu is accessible with a keyboard shortcut: Ctrl + F (Windows) or Cmd + F (Mac).It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface. </li>
+			<li id=“search”> Search: This opens a popup where all data from the database are visible. This menu is accessible with a keyboard shortcut: Ctrl + F (Windows) or Cmd + F (Mac).It is possible to look at the database for a specific model by long at Name, Author, Title, Journal and Year. A click on the desired model will display the corresponding values in the model part of the interface. </li>
 			<li>Import: This imports a new database in the following formats: </li>
 				<ul> 
 					<li> Tab-separated database </li>
@@ -399,7 +399,7 @@ To account for surface conductance, the user can either specify :
 <details> <summary><h2 class="menutitle"> Database </h2></summary>
 
 
-<p class="retrait"> MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that was found in the literature has been created. This database is in the file mydep_database.db. To access and explore the database, see <a href=“/getting_started/#Search"> Search </a>.</p>
+<p class="retrait"> MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that was found in the literature has been created. This database is in the file mydep_database.db. To access and explore the database, see <a href=“#search"> Search </a> .</p>>
 
 <p class="retrait">For each model all the information concerning the model can be seen by clicking on the View references button. A popup menu will open containing the following fields:
 <ul>
