@@ -366,7 +366,7 @@ To account for surface conductance, the user can either specify :
               			</ul>
               				<div class="DIVimage">
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
-					<figcaption class="figcap">Fig.15 Popup Menu for the export of MyDEP interface. The output format, resolution and file format can be selected.
+					<figcaption class="figcap">Fig.15 Popup menu for the export of MyDEP interface. The output format, resolution and file format can be selected.
     					</figcaption> 
              		 		</div>
 			</li> 
