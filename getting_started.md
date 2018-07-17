@@ -241,7 +241,7 @@ To account for surface conductance, the user can either specify :
       </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image13_LegendParameters.png' />
-		<figcaption class="figcap">Fig.13
+		<figcaption class="figcap">Fig.13 Popup menu corresponding to the Legend parameters. The label position, Font, Font size and color as well as the Background color can be selected.
     		</figcaption>
       </div>
       <br>
