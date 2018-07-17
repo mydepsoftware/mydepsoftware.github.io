@@ -24,14 +24,14 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image01_mac.png' />
-	<figcaption class="figcap">Fig.1 MyDEP interface after start up
+	<figcaption class="figcap">Fig.1 MyDEP interface after start up.
     	</figcaption>
 </div>
 <p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear:</p>
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image02_mac.png' />
-	<figcaption class="figcap">Fig.2 Different parts of the MyDEP interface
+	<figcaption class="figcap">Fig.2 Different parts of the MyDEP interface.
     	</figcaption>
 </div>
 
