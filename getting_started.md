@@ -24,14 +24,14 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image01_mac.png' />
-	<figcaption class="figcap">Fig.1 MyDEP interface after start up.
+	<figcaption class="figcap">Fig.1
     	</figcaption>
 </div>
 <p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear:</p>
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image02_mac.png' />
-	<figcaption class="figcap">Fig.2 Different parts of the MyDEP interface.
+	<figcaption class="figcap">Fig.2 
     	</figcaption>
 </div>
 
@@ -39,6 +39,8 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image03_mac.png' />
+	<figcaption class="figcap">Fig.3 
+    	</figcaption>
 </div>
   </details>
 
@@ -46,6 +48,8 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
 
 <div class="DIVimage">
     <img class="im" src='/assets/img/image04_MyDEP.png' />
+	<figcaption class="figcap">Fig.4 MyDEP interface after start up.
+    	</figcaption>
 </div>
 
  </details>
@@ -54,6 +58,8 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
 
 <div class="DIVimage">
     <img class="im" src='/assets/img/Image05_MyDEP_cadreRouge_number_menubar.png' />
+	<figcaption class="figcap">Fig.5 Different parts of the MyDEP interface.
+    	</figcaption>
 </div>
 
 <p> The interface is constituted of nine different parts: </p>
@@ -87,6 +93,8 @@ It should be noted that tooltips are available for most of the interface paramet
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image06_homogeneous.png' />
+		<figcaption class="figcap">Fig.6 
+    		</figcaption>
         </div><br>
 <details><summary class="tab"><h5 class="menutitle"> Specificities of the "Homogeneous Particle" model </h5> </summary>
 
@@ -113,6 +121,8 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image07_single.png' />
+		<figcaption class="figcap">Fig.7 
+    		</figcaption>
         </div><br>
 
 <details><summary class="tab"><h5 class="menutitle"> Single shell: Electrical Model </h5> </summary>
@@ -138,18 +148,24 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image08_two.png' />
+		<figcaption class="figcap">Fig.8
+    		</figcaption>
         </div><br>
       </li>
       <li> <b>Three-shell:</b> this model corresponds to a cell with one outside layer and a nucleus occupying a significant volume. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm and cell membrane.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image09_three.png' />
+		<figcaption class="figcap">Fig.9
+    		</figcaption>
         </div><br>
       </li>
       <li> <b>Four-shell:</b> this model corresponds to a cell with two outside layers and a nucleus occupying a significant volume. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm, cell membrane and cell wall.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image10_four.png' />
+		<figcaption class="figcap">Fig.10
+    		</figcaption>
         </div><br>
       </li>
   </ul>  
@@ -157,12 +173,16 @@ To account for surface conductance, the user can either specify :
   <p>Here is a summarized description of the implemented cell models (the four-shell model is not represented):</p>
   <div>
       <img class="im" src='/assets/img/image11_CellModel.png' />
+		<figcaption class="figcap">Fig.11
+    		</figcaption>
   </div>
 
   </details>
   <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The <b> Sweep </b> button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max values, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
   <div class="DIVimage60">
       <img class="im" src='/assets/img/image12_SweepParameters.png' />
+		<figcaption class="figcap">Fig.12
+    		</figcaption>
   </div>
 
   </details>
@@ -221,6 +241,8 @@ To account for surface conductance, the user can either specify :
       </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image13_LegendParameters.png' />
+		<figcaption class="figcap">Fig.13
+    		</figcaption>
       </div>
       <br>
       In the Sweep mode the legend will display the properties of the last generated curve (default mode) or the selected curve.
@@ -234,6 +256,8 @@ To account for surface conductance, the user can either specify :
       </ul><br>
       <div class="DIVimage">
           <img class="im" src='/assets/img/image14_GridProperties.png' />
+		<figcaption class="figcap">Fig.14
+    		</figcaption>
       </div>
       <br>
       </li>
@@ -342,6 +366,8 @@ To account for surface conductance, the user can either specify :
               			</ul>
               				<div class="DIVimage">
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
+					<figcaption class="figcap">Fig.15 
+    					</figcaption>
              		 		</div>
 			</li> 
 		</ul>
@@ -368,12 +394,16 @@ To account for surface conductance, the user can either specify :
 					</li>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image18_ExportCSV.png' />
+						<figcaption class="figcap">Fig.16
+    						</figcaption>
              		 			</div>
 				</ul> 
 			<li>Import CSV curve</li>
 				<p> MyDEP allows to import a CSV file </p>
               					<div class="DIVimage">
                   				<img class="im" src='/assets/img/image19_ImportCSV.png' />
+						<figcaption class="figcap">Fig.17
+    						</figcaption>
              		 			</div>
 		</ul> </li>
 	<li> Tools
@@ -418,6 +448,8 @@ To account for surface conductance, the user can either specify :
 <br>
 <div class="DIVimage">
     <img class="im" src='/assets/img/image16_ViewReferences.png' />
+	<figcaption class="figcap">Fig.18
+    	</figcaption>
 </div>
 </p>
 
