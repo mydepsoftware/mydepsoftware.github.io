@@ -66,7 +66,6 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
 </p>
 
 <div class="DIVimage">
-
     <img class="im" src='/assets/img/PositiveDEP.png' />
     <figcaption class="figcap"><b>Illustration of pDEP principle. A. </b>The particle and its immersion medium get polarized under the effect of the electric field. Here the particle is more polarizable than its immersion medium. <b>B.</b> The net dipole moment $\mathbf m$ is directed in the same direction as the field. Due to the field non uniformity <span class="saut">($E_B>E_A$), coulomb </span>forces exerted on opposed induced charges are unbalanced&nbsp;($F_B>F_A$), which induces a net displacement of the particle towards the region of maximum field intensity.
     </figcaption>
@@ -103,7 +102,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 <div class="DIVimage">
       <img class="im" src='/assets/img/image11_CellModel.png' />
-    <figcaption class="figcap"> Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here. 
+    <figcaption class="figcap"> Fig. 2 Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here.    
     </figcaption>
 </div>
 
