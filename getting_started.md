@@ -333,7 +333,7 @@ To account for surface conductance, the user can either specify :
                 				<li> Resolution: 75, 150, 300 or 600 dpi.</li>
                 				<li> Orientation.</li>
                 				<li> Keep screen aspect ratio: This keeps the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
-                				<li> File format: pdf, jpg, bmp, gif, png, jpeg.</li>
+                				<li> File format: jpg, bmp, gif, png, jpeg.</li>
               			</ul>
               				<div class="DIVimage">
                   			<img class="im" src='/assets/img/image15_Interface_export_parameters.png' />
@@ -352,7 +352,7 @@ To account for surface conductance, the user can either specify :
 	              					<li> Resolution: 75, 150, 300 or 600 dpi.</li>
                 					<li> Orientation. </li>
                		 				<li> Keep screen aspect ratio: This keeps the same aspect ratio as what is displayed on the screen. This option will partially rule out the output format chosen. Only one dimension will be conserved.</li>
-                						<li> File format: pdf, jpg, bmp, gif, png, jpeg. </li>
+                						<li> File format: jpg, bmp, gif, png, jpeg. </li>
               					</ul>
 					</li>
 					<li>CSV: This exports the selected parameters
