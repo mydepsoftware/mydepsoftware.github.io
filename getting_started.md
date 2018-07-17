@@ -89,7 +89,7 @@ It should be noted that tooltips are available for most of the interface paramet
   <details><summary class="tab"><h4 class="menutitle"> 3. Model </h4></summary> <p> In this section, the user can choose the particle model that will be implemented. Dielectric particles such as cells are usually represented as concentric shells. Here the user can specify the number of layers that will be used. Moreover, the particle shape can be either spherical or ellipsoidal. The possible models are: </p>
 
   <ul>
-      <li> <b>Homogeneous particle:</b> this model corresponds to a completely homogeneous particle.
+      <li> <b>Homogeneous particle:</b> This model corresponds to a completely homogeneous particle. The corresponding interface is displayed in Fig.6.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image06_homogeneous.png' />
@@ -117,7 +117,7 @@ To account for surface conductance, the user can either specify :
 </p>
   </details>	            
       </li>
-      <li> <b>Single-shell:</b> this model corresponds to a particle with an outside layer. For a cell it typically represents a cytoplasm surrounded by a lipid membrane.
+      <li> <b>Single-shell:</b> This model corresponds to a particle with an outside layer. The corresponding interface is displayed in Fig.7. For a cell it typically represents a cytoplasm surrounded by a lipid membrane.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image07_single.png' />
@@ -144,7 +144,7 @@ To account for surface conductance, the user can either specify :
 </p>
   </details>
       </li>
-      <li> <b>Two-shell:</b> this model corresponds to a particle with two outside layers. For a cell it corresponds to a cytoplasm surrounded by a cell membrane and a cell wall.
+      <li> <b>Two-shell:</b> This model corresponds to a particle with two outside layers. The corresponding interface is displayed in Fig.8. For a cell it corresponds to a cytoplasm surrounded by a cell membrane and a cell wall.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image08_two.png' />
@@ -152,7 +152,7 @@ To account for surface conductance, the user can either specify :
     		</figcaption>
         </div><br>
       </li>
-      <li> <b>Three-shell:</b> this model corresponds to a cell with one outside layer and a nucleus occupying a significant volume. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm and cell membrane.
+      <li> <b>Three-shell:</b> This model corresponds to a cell with one outside layer and a nucleus occupying a significant volume. The corresponding interface is displayed in Fig.9. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm and cell membrane.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image09_three.png' />
@@ -160,7 +160,7 @@ To account for surface conductance, the user can either specify :
     		</figcaption>
         </div><br>
       </li>
-      <li> <b>Four-shell:</b> this model corresponds to a cell with two outside layers and a nucleus occupying a significant volume. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm, cell membrane and cell wall.
+      <li> <b>Four-shell:</b> This model corresponds to a cell with two outside layers and a nucleus occupying a significant volume. The corresponding interface is displayed in Fig.10. The order of the layers from the inside to the outside is nucleoplasm, nuclear envelope, cytoplasm, cell membrane and cell wall.
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image10_four.png' />
@@ -173,7 +173,7 @@ To account for surface conductance, the user can either specify :
   <p>Here is a summarized description of the implemented cell models (the four-shell model is not represented):</p>
   <div>
       <img class="im" src='/assets/img/image11_CellModel.png' />
-		<figcaption class="figcap">Fig.11
+		<figcaption class="figcap">Fig.11 Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here.
     		</figcaption>
   </div>
 
