@@ -399,7 +399,7 @@ To account for surface conductance, the user can either specify :
 <details> <summary><h2 class="menutitle"> Database </h2></summary>
 
 
-<p class="retrait"> MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that was found in the literature has been created. This database is in the file mydep_database.db. To access and explore the database, see <a href="#search"> Search </a> <a name="search"> Search </a> <a name="#search"> Search </a>.</p>
+<p class="retrait"> MyDEP allows to work with cell models from the Homogeneous particle model up to a Four-shell particle model, spherical or ellipsoidal. A database, compiling data for each model that was found in the literature has been created. This database is in the file mydep_database.db. To access and explore the database, see <a name="#search"> Search </a>.</p>
 
 <p class="retrait">For each model all the information concerning the model can be seen by clicking on the View references button. A popup menu will open containing the following fields:
 <ul>
