@@ -102,7 +102,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 <div class="DIVimage">
       <img class="im" src='/assets/img/image11_CellModel.png' />
-    <figcaption class="figcap"> Fig. 2 Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here.    
+    <figcaption class="figcap"> Fig.2 Illustration of the different spherical and ellipsoidal cell and particle models implemented in the interface. All the models "Homogeneous sphere", "Single-shell", "Two-shell" and "Three-shell" are illustrated with an example. The implemented "Four-shell" model is not illustrated here.    
     </figcaption>
 </div>
 
