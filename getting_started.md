@@ -20,31 +20,31 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.</p>
 
 <details><summary class="tab"><h3 class="menutitle"> For Mac OS X users </h3> </summary>
-<p> For Mac OS X users, depending on the security preferences, the following message might be displayed: </p>
+<p> For Mac OS X users, depending on the security preferences, the message from Fig.1 might be displayed.</p>
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image01_mac.png' />
-	<figcaption class="figcap">Fig.1
+	<figcaption class="figcap">Fig.1 Popop menu explaining that MyDEP can't be opened (on Mac).
     	</figcaption>
 </div>
-<p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear:</p>
+<p>In this case click on OK, go to System Preferences -> Security and Privacy. Under the General tab the following info should appear Fig.2.</p>
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image02_mac.png' />
-	<figcaption class="figcap">Fig.2 
+	<figcaption class="figcap">Fig.2 How to allow the opening of MyDEP.
     	</figcaption>
 </div>
 
-<p> Click on "Open anyway" -> Open </p>
+<p> Click on "Open anyway" -> Open </p> (Fig.3).
 
 <div class="DIVimage60">
     <img class="im" src='/assets/img/image03_mac.png' />
-	<figcaption class="figcap">Fig.3 
+	<figcaption class="figcap">Fig.3 New popup menu after modifying the security preferences.
     	</figcaption>
 </div>
   </details>
 
-<p> The "mydep.ini" file will be created containing all your preferences and the following screen will appear with the application: </p>
+<p> The "mydep.ini" file will be created containing all your preferences and the window from MyDEP as displayed in Fig.4 will appear.</p>
 
 <div class="DIVimage">
     <img class="im" src='/assets/img/image04_MyDEP.png' />
@@ -62,7 +62,7 @@ Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.<
     	</figcaption>
 </div>
 
-<p> The interface is constituted of nine different parts: </p>
+<p> The interface is constituted of 9 different parts as displayed in Fig.5:</p>
 <ol>
   <li> Medium </li>
   <li> Frequencies </li>
@@ -93,7 +93,7 @@ It should be noted that tooltips are available for most of the interface paramet
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image06_homogeneous.png' />
-		<figcaption class="figcap">Fig.6 
+		<figcaption class="figcap">Fig.6 MyDEP with the related "Homogeneous Particle" model menu visible.
     		</figcaption>
         </div><br>
 <details><summary class="tab"><h5 class="menutitle"> Specificities of the "Homogeneous Particle" model </h5> </summary>
@@ -121,7 +121,7 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image07_single.png' />
-		<figcaption class="figcap">Fig.7 
+		<figcaption class="figcap">Fig.7 MyDEP with the related "Single-shell Particle" model menu visible.
     		</figcaption>
         </div><br>
 
@@ -148,7 +148,7 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image08_two.png' />
-		<figcaption class="figcap">Fig.8
+		<figcaption class="figcap">Fig.8 MyDEP with the related "Two-shell" model menu visible.
     		</figcaption>
         </div><br>
       </li>
@@ -156,7 +156,7 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image09_three.png' />
-		<figcaption class="figcap">Fig.9
+		<figcaption class="figcap">Fig.9 MyDEP with the related "Three-shell" model menu visible.
     		</figcaption>
         </div><br>
       </li>
@@ -164,7 +164,7 @@ To account for surface conductance, the user can either specify :
         <br><br>
         <div class="DIVimage">
             <img class="im" src='/assets/img/image10_four.png' />
-		<figcaption class="figcap">Fig.10
+		<figcaption class="figcap">Fig.10 MyDEP with the related "Four-shell" model menu visible.
     		</figcaption>
         </div><br>
       </li>
