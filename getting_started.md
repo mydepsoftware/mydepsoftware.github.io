@@ -181,7 +181,7 @@ To account for surface conductance, the user can either specify :
   <details><summary class="tab"><h4 class="menutitle"> 4. Sweep </h4></summary> <p class="retrait"> The <b> Sweep </b> button, once pressed, performs a sweep on different values of the selected parameter. To change the parameter on which the sweep is performed, click on the Sweep parameter and select the desired parameter (cf following image). The number of points used, as well as the min and max values, can also be specified. If the log button is pressed, the values will be logarithmically distributed (linearly distributed otherwise). </p>
   <div class="DIVimage60">
       <img class="im" src='/assets/img/image12_SweepParameters.png' />
-		<figcaption class="figcap">Fig.12
+		<figcaption class="figcap">Fig.12 Illustration of the Sweep button. When pressed the parameter to sweep become visible as well as the min and max values for the sweep.
     		</figcaption>
   </div>
 
