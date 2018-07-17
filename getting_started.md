@@ -303,7 +303,7 @@ To account for surface conductance, the user can either specify :
 						</ul> 	
 	 				<li> SQLite database: This exports at the desired location in .db file: </li>
 						<ul> 
-							<li> Partial user database: This opens a popup window where the user can select the created models he wants to export.
+							<li> Partial user database: This opens a popup menu where the user can select the created models he wants to export.
 								<ul>
 									<li> <b> Save </b> button: This saves the database at the desired location.</li>
 									<li> <b> Save and submit </b> button: The database will be saved at the desired location and an email will be generated from the user mailbox. Please add the references of the paper(s) to help to MyDEP admin to check and add the model to the initial database for all the users.</li>
@@ -388,9 +388,9 @@ To account for surface conductance, the user can either specify :
 	<li> Help
 		<ul>
 			<li>Online ressources: This brings the user to the MyDEP GitHub page.</li>
-			<li>About MyDEP: This opens a popup where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
-			<li>About MyDEP licensing: This opens a popup where the MyDEP licence is displayed.</li>
-			<li>Contact: This opens a popup where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
+			<li>About MyDEP: This opens a popup menu where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
+			<li>About MyDEP licensing: This opens a popup menu where the MyDEP licence is displayed.</li>
+			<li>Contact: This opens a popup menu where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
 		</ul> </li>
 </ul>
 
@@ -421,7 +421,7 @@ To account for surface conductance, the user can either specify :
 
 <p class="retrait"> A similar principle is applied for the different media in the medium section of MyDEP. For each medium "Name" and "Remarks" fields are available through the "View" button.</p>
 
-<p class="retrait"> To suggest a new element to the MyDEP admin for the database, click the menu Database -> Export -> SQLlite database -> Partial user database. Add the element from the "User database" column to the "Database to export" column. Then click on the <b> Save and submit</b> button. A popop will appear on the screen proposing to save the file as "mydep_partialuserdatabase.db". Click on the <b> Save </b> button. Your mail client will open and a draft email will be generated to the contact address. Please add the reference of the suggested model. Do not forget to attach the "mydep_partialuserdatabase.db" file. The MyDEP admin will review your suggestion and add it to the initial database distributed to all users afterwards.</p>
+<p class="retrait"> To suggest a new element to the MyDEP admin for the database, click the menu Database -> Export -> SQLlite database -> Partial user database. Add the element from the "User database" column to the "Database to export" column. Then click on the <b> Save and submit</b> button. A popop menu will appear on the screen proposing to save the file as "mydep_partialuserdatabase.db". Click on the <b> Save </b> button. Your mail client will open and a draft email will be generated to the contact address. Please add the reference of the suggested model. Do not forget to attach the "mydep_partialuserdatabase.db" file. The MyDEP admin will review your suggestion and add it to the initial database distributed to all users afterwards.</p>
 
  </details>
 
