@@ -8,7 +8,7 @@ permalink: /a_bit_of_theory/
 <h2> Dielectrophoresis principle </h2>
 
 <p class="retrait">
-The term "dielectrophoresis" was first introduced by Pohl in 1951 <sup><a href="#cite1" style="text-decoration:none"> 1 </a></sup>  to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
+The term "dielectrophoresis" was first introduced by Pohl in 1951<sup><a href="#cite1" style="text-decoration:none"> 1 </a></sup>  to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
 <p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect)<sup><a href="#cite2" style="text-decoration:none"> 2 </a></sup>.
 </p>
 
