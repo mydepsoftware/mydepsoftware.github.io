@@ -112,7 +112,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 \epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
 \end{equation}
 
-The formulation of the complex permittivity for ellipsoids has been described by Kakutani<sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
+The formulation of the complex permittivity for ellipsoids has been described by Kakutani <i>et al.</i><sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
  </p>
 
  <h3><p id="Cell_suspension"> Cell suspension </p> </h3>
@@ -125,7 +125,7 @@ The formulation of the complex permittivity for ellipsoids has been described by
 \frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
 \end{equation}
 
-which is equivalent, according to Sihvola<sup><a href="#cite8" style="text-decoration:none">8</a></sup>, to the direct formulation:
+which is equivalent, according to Sihvola <i>et al.</i><sup><a href="#cite8" style="text-decoration:none">8</a></sup>, to the direct formulation:
 
 \begin{equation}
     \tag{11}
