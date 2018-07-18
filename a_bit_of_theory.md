@@ -9,7 +9,7 @@ permalink: /a_bit_of_theory/
 
 <p class="retrait">
 The term "dielectrophoresis" was first introduced by Pohl in 1951<sup><a href="#cite1" style="text-decoration:none">1</a></sup> to describe the motion of dielectric particles due to interaction with a non uniform electric field. </p>
-<p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect)<sup><a href="#cite2" style="text-decoration:none"> 2 </a></sup>.
+<p class="retrait">Depending on the frequency of the applied field and on the dielectric properties of the particle and its immersion medium, different polarization mechanisms come into play, the main mechanisms being related to the formation of a double electric layer at the particle/liquid interface and to charge accumulation at interfaces between media of different electrical properties (Maxwell-Wagner interfacial polarization effect)<sup><a href="#cite2" style="text-decoration:none">2</a></sup>.
 </p>
 
     
@@ -46,7 +46,7 @@ $\varepsilon_{p}^{\ast}$ and $\varepsilon_{m}^{\ast}$ refer to the complex permi
 
 where $\varepsilon_{i}$ is the relative permittivity, $\varepsilon_{0}$ the vacuum permittivity and $\sigma_i$ the electrical conductivity.
 
-<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force <sup><a href="#cite3" style="text-decoration:none"> 3 </a></sup>:
+<p> Development of equation \eqref{FDEP} leads to the expression of the generalized DEP force<sup><a href="#cite3" style="text-decoration:none">3</a></sup>:
 $$\begin{equation} 
     \mathbf{F_{DEP}}=2\pi \varepsilon_{m} \varepsilon_{0} r_{ext}^3 \left\{ Re[CM(f)]\mathbf \nabla E_{RMS}^2+Im[CM(f)] (E_x^2\mathbf \nabla \phi_x+E_y^2\mathbf \nabla \phi_y+E_z^2\mathbf \nabla \phi_z) \right\} 
     \tag{5}\label{FDEP_full}
@@ -73,7 +73,7 @@ This phenomenon is sometimes referred to as "conventional dielectrophoresis" (cD
 
 
 <h3> Electrorotation </h3>
-<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann <sup><a href="#cite4" style="text-decoration:none"> 4 </a></sup>, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
+<p class="retrait"> While conventional dielectrophoresis is based on the use of stationary electric fields, electrorotation consists in inducing a rotary motion on a polarizable particle exposed to a rotating field. This technique was developed in the 1980s by Arnold and Zimmermann<sup><a href="#cite4" style="text-decoration:none">4</a></sup>, who proposed to use a four-pole electrode structure to generate the field by applying 90° phase-shifted signals between two adjacent electrodes.</p>
 
 <p> When a polarizable particle is suspended in a rotating electric field, a dipole forms and should rotate synchronously with the field. In practice, when the angular frequency of the field is sufficiently high, the dipolar relaxation time is too long to allow this synchronism. The temporal shift (or phase delay) resulting between the dipole and the field results in a torque exerted on the particle, of expression:
     $$\langle\mathbf{\Gamma_{EL}}\rangle=\mathbf{m}\times\mathbf{E}=-4\pi r_{ext}^{3}\varepsilon_{m}\varepsilon_{0}Im[CM(f)]E^{2}\mathbf{e_z}     
@@ -94,11 +94,11 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 
 <h3> Travelling-wave dielectrophoresis (twDEP) </h3>
 
-<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$ <sup><a href="#cite5" style="text-decoration:none"> 5 </a></sup>. </p>
+<p class="retrait"> The twDEP force acts on a particle subjected to a travelling electric field. It is related to the phase non-uniformity of the electric field and arises from the interaction of the travelling field with the phase lagging component of the induced dipole moment. Such a field can be produced by planar electrodes arranged in rows and driven by a polyphase ac voltage. twDEP is therefore an analogue of ROT, with electrodes arranged in line, rather than in a circle. The resulting translational force propels the particle along the electrodes, with or against the field direction, depending on whether $Im[CM(f)]$ is negative or positive, respectively. In practice, cDEP and twDEP effects can be observed simultaneously: while the particle translates, it is either pushed above the electrodes (nDEP) or attracted onto them (pDEP), depending on the sign of $Re[CM(f)]$<sup><a href="#cite5" style="text-decoration:none">5</a></sup>.</p>
 
 <h3><p id="Cell_modelling"> Cell modelling </p> </h3>
 
-<p class="retrait"> Most particles, and especially biological cells, are not homogeneous. It is therefore mandatory to model the different layers that constitute them (cell membrane and cytoplasm in particular). Calculating the Clausius-Mossotti factor requires to successively calculate the equivalent permittivities of the inner layers to obtain an homogeneous equivalent particle. The different models implemented in MyDEP are: "Homogeneous particle", "Single-shell", "Two-shell", "Three-shell" and "Four-shell" and are presented in Fig.  </p>
+<p class="retrait"> Most particles, and especially biological cells, are not homogeneous. It is therefore mandatory to model the different layers that constitute them (cell membrane and cytoplasm in particular). Calculating the Clausius-Mossotti factor requires to successively calculate the equivalent permittivities of the inner layers to obtain an homogeneous equivalent particle. The different models implemented in MyDEP are: "Homogeneous particle", "Single-shell", "Two-shell", "Three-shell" and "Four-shell" and are presented in Fig.2.</p>
 
 <div class="DIVimage">
       <img class="im" src='/assets/img/image11_CellModel.png' />
@@ -106,13 +106,13 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
     </figcaption>
 </div>
 
- <p class="retrait"> For a cell modelled with a "Single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity <sup><a href="#cite6" style="text-decoration:none"> 6 </a></sup> is:
+ <p class="retrait"> For a cell modelled with a "Single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity<sup><a href="#cite6" style="text-decoration:none">6</a></sup> is:
 \begin{equation}
     \tag{9}
 \epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
 \end{equation}
 
-The formulation of the complex permittivity for ellipsoids can be found in <sup><a href="#cite7" style="text-decoration:none"> 7 </a></sup>.
+The formulation of the complex permittivity for ellipsoids can be found in<sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
  </p>
 
  <h3><p id="Cell_suspension"> Cell suspension </p> </h3>
@@ -125,21 +125,21 @@ The formulation of the complex permittivity for ellipsoids can be found in <sup>
 \frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
 \end{equation}
 
-which is equivalent, according to <sup><a href="#cite8" style="text-decoration:none"> 8 </a></sup>, to the direct formulation:
+which is equivalent, according to<sup><a href="#cite8" style="text-decoration:none">8</a></sup>, to the direct formulation:
 
 \begin{equation}
     \tag{11}
 \epsilon_{mix}^{\ast}=\epsilon_{m}^{\ast} \left(1+3 \phi \frac{\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}{1-\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}}\right) 
 \end{equation}
 
-or by the Asami-Hainaï equation <sup><a href="#cite9" style="text-decoration:none"> 9 </a></sup>, theoretically up to $\phi < 0.9$:
+or by the Asami-Hainaï equation<sup><a href="#cite9" style="text-decoration:none">9</a></sup>, theoretically up to $\phi < 0.9$:
 
 \begin{equation}
     \tag{12}
 \left(\frac{\epsilon_{mix}^{\ast}-\epsilon_{p}^{\ast}}{\epsilon_{m}^{\ast}-\epsilon_{p}^{\ast}}\right)\left(\frac{\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}}\right)^{1/3}=1-\phi
 \end{equation}
 
- <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in <sup><a href="#cite10" style="text-decoration:none"> 10</a>,<a href="#cite11" style="text-decoration:none">11 </a></sup>. </p>
+ <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in<sup><a href="#cite10" style="text-decoration:none">10</a>,<a href="#cite11" style="text-decoration:none">11</a></sup>.</p>
 
 <h2> References </h2>
 <ol> 
