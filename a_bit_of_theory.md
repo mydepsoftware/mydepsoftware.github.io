@@ -112,7 +112,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
 \epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
 \end{equation}
 
-The formulation of the complex permittivity for ellipsoids can be found in<sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
+The formulation of the complex permittivity for ellipsoids has been described by Kakutani<sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
  </p>
 
  <h3><p id="Cell_suspension"> Cell suspension </p> </h3>
@@ -125,7 +125,7 @@ The formulation of the complex permittivity for ellipsoids can be found in<sup><
 \frac{\epsilon_{mix}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{mix}^{\ast}+2\epsilon_{m}^{\ast}}=\phi\frac{\epsilon_{p}^{\ast}-\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}+2\epsilon_{m}^{\ast}}
 \end{equation}
 
-which is equivalent, according to<sup><a href="#cite8" style="text-decoration:none">8</a></sup>, to the direct formulation:
+which is equivalent, according to Sihvola<sup><a href="#cite8" style="text-decoration:none">8</a></sup>, to the direct formulation:
 
 \begin{equation}
     \tag{11}
@@ -139,7 +139,7 @@ or by the Asami-Hainaï equation<sup><a href="#cite9" style="text-decoration:non
 \left(\frac{\epsilon_{mix}^{\ast}-\epsilon_{p}^{\ast}}{\epsilon_{m}^{\ast}-\epsilon_{p}^{\ast}}\right)\left(\frac{\epsilon_{m}^{\ast}}{\epsilon_{p}^{\ast}}\right)^{1/3}=1-\phi
 \end{equation}
 
- <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The methodology can be found in<sup><a href="#cite10" style="text-decoration:none">10</a>,<a href="#cite11" style="text-decoration:none">11</a></sup>.</p>
+ <p >  Unfortunately  there is no direct expression for the calculation of $\epsilon_{mix}^{\ast}$ and the value can therefore be obtained either by solving the cubic equation or by numerical integration with the difference equation of Hanai's equation. The later has been implemented in the software, with the possibility to choose the number of increments. The full methodology can be found in the papers from Hanai <i>et al.</i><sup><a href="#cite10" style="text-decoration:none">10</a>,<a href="#cite11" style="text-decoration:none">11</a></sup>.</p>
 
 <h2> References </h2>
 <ol> 
