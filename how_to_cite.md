@@ -5,8 +5,10 @@ permalink: /how_to_cite/
 ---
 
 
-<p> A paper related to the software is in preparation for the Biophysical Journal (Computational Tools category). 
-A tentative reference would be:</p>
-<p> Cottet, J., Fabregue, O., Buret, F., Renaud, P. & Frénéa-Robin, M. MyDEP: a new computational tool for dielectric modelling of particles and cells and simulation of their dielectrophoretic response spectra. Biophysical Journal (2018 (Paper in preparation))</p>
+<p>The software is deposited on Zenodo. To refer to the software please use</p>
+
+<p>Jonathan Cottet, Olivier Fabregue, Charles Berger, Francois Buret, Philippe Renaud, & Marie Frénéa-Robin. (2018, July 26). MyDEP: a new computational tool for dielectric modeling of particles and cells (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.1321929</p>
+
+<p>The related paper is currently under submission in a Journal.</p>
 
 
