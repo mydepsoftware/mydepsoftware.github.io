@@ -109,7 +109,7 @@ Curve fitting procedures may be used to obtain the dielectric parameters of a ce
  <p class="retrait"> For a cell modelled with a "Single-shell" model composed of a cytoplasm surrounded by a cell membrane, the equivalent complex permittivity<sup><a href="#cite6" style="text-decoration:none">6</a></sup> is:
 \begin{equation}
     \tag{9}
-\epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
+\epsilon_{eq}^{\ast}=\epsilon_{cm}^{\ast}\frac{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3+2\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}{\left(\frac{r_{ext}}{r_{ext}-th_{cm}}\right)^3-\left(\frac{\epsilon_{cp}^{\ast}-\epsilon_{cm}^{\ast}}{\epsilon_{cp}^{\ast}+2\epsilon_{cm}^{\ast}}\right)}
 \end{equation}
 
 The formulation of the complex permittivity for ellipsoids has been described by Kakutani <i>et al.</i><sup><a href="#cite7" style="text-decoration:none">7</a></sup>.
