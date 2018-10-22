@@ -421,7 +421,7 @@ To account for surface conductance, the user can either specify :
 		</ul> </li>
 	<li> Help
 		<ul>
-			<li>Online ressources: This brings the user to the MyDEP GitHub page.</li>
+			<li>Online resources: This brings the user to the MyDEP GitHub page.</li>
 			<li>About MyDEP: This opens a popup menu where the MyDEP version number, the MYDEP Database version number as well as the Java version are displayed. </li>
 			<li>About MyDEP licensing: This opens a popup menu where the MyDEP licence is displayed.</li>
 			<li>Contact: This opens a popup menu where the contact address of the MyDEP admin is displayed. The <u> Open in mail client </u> link will open the mail client and prepare an email with the contact address.</li>
