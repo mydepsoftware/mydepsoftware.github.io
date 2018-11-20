@@ -1,2 +1,2 @@
 MyDEP.1.0.0 https://zenodo.org/record/1321929/files/mydep.zip
-MyDEP.1.0.1 https://zenodo.org/record/1321929/files/mydep.zip
+MyDEP.1.0.1 https://github.com/mydepsoftware/mydepsoftware.github.io/tree/master/files/MyDEP.1.0.1.zip
