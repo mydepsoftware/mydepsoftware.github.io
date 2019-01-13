@@ -13,7 +13,7 @@ permalink: /how_to_cite/
 
 <p>The software is deposited on Zenodo. To refer to the software please use</p>
 
-<p>Cottet, Jonathan, Fabregue, Olivier, Berger, Charles, Buret, François, Renaud, Philippe & Frénéa-Robin, Marie. MyDEP: a new computational tool for dielectric modeling of particles and cells. doi: <a href="http://doi.org/10.5281/zenodo.1321928">10.5281/zenodo.1321928</a></p>
+<p>Cottet, Jonathan, Fabregue, Olivier, Berger, Charles, Buret, François, Renaud, Philippe & Frénéa-Robin, Marie. MyDEP: a new computational tool for dielectric modeling of particles and cells. Zenodo. doi: <a href="http://doi.org/10.5281/zenodo.1321928">10.5281/zenodo.1321928</a></p>
 
 <p>The related paper is published in Biophysical Journal:</p>
 
