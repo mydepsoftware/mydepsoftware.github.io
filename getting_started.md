@@ -15,7 +15,7 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 <details>
 <summary><h2 class="menutitle"> Installation and system requirements </h2></summary>
 
-<p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer. Otherwise it can be downloaded <a href="https://java.com/en/download">here</a> (October 2018: Version 8 Update 191). </p>
+<p> MyDEP can be run on Windows, Mac OS X or Linux/Ubuntu operating systems. It requires Java to be installed on your system. Please check you have the latest recommended version of Java installed on your computer. Otherwise it can be downloaded <a href="https://java.com/en/download">here</a> (January 2019: Version 8 Update 201). </p>
 <p> Download the latest version of MyDEP (Version v1.0.0) by clicking on the <b>Free download from Zenodo</b> button in the page header. Unzip the folder (zip archive) and open it. Double-click on the MyDEP.jar file.</p>
 
 <p> <b>Warning</b>: Sometimes, the default program to open MyDEP.jar is not Java. In this case you need to set Java as the default program to open the .jar files.</p>
