@@ -58,7 +58,7 @@ It consists of a Graphical User Interface (GUI) supporting a literature-based da
 <summary><h2 class="menutitle"> User interface structure </h2></summary>
 
 <div class="DIVimage">
-    <img class="im" src='/assets/img/Image05_MyDEP_cadreRouge_number_menubar.png' />
+    <img class="im" src='/assets/img/image05_MyDEP_cadreRouge_number_menubar.png' />
 	<figcaption class="figcap">Fig.5 Different parts of the MyDEP interface.
     	</figcaption>
 </div>
